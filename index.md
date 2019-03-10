@@ -1,3 +1,23 @@
+# Links
+* [Weekly Journal](https://goo.gl/forms/rlyLeBesldb04FqQ2)
+* [Ice Breaker Survey](https://goo.gl/forms/I2je3WAZsKbgPRUF3)
+
+# Communication
+* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-spr2019/shared_invite/enQtNTcxNjk2Mzk2Mjc5LWRiNzg5YzdlYzhjNDdhYzEzODRmNjhhM2Q3NzFiYzJiZTRkZTE0ZDIyOWQzZGZkY2VhNGEzOTM4Y2YzY2NmZmE)
+* [CEBD 1160 Slack] https://cebd1160-spring2019.slack.com/
+
+# Course Outline
+1. Intro 2 Programming & Big Data
+2. Intro 2 Linux & Version Control
+3. Intro 2 Containerization & Shipping Software
+4. Python Data Structures and Conditionals
+5. Python Loops and Functions
+6. Python Libraries & Numerical Analysis
+7. Python Data Visualization
+8. Python Machine Learning
+9. Translating into R
+10. Projects & Applications of Data Science
+
 # Evaluation
 * Project (60%)
   - Feasibility (10%)
@@ -32,23 +52,3 @@
  - Homework and Journals will be due before the start of  the following class
  - Students must get at least a 50% grade in each  component of the course
  - Everybody has 2 late days which can be used on  homework, but not the project
-
-# Course Outline
-1. Intro 2 Programming & Big Data
-2. Intro 2 Linux & Version Control
-3. Intro 2 Containerization & Shipping Software
-4. Python Data Structures and Conditionals
-5. Python Loops and Functions
-6. Python Libraries & Numerical Analysis
-7. Python Data Visualization
-8. Python Machine Learning
-9. Translating into R
-10. Projects & Applications of Data Science
-
-# Links
-* [Weekly Journal](https://goo.gl/forms/rlyLeBesldb04FqQ2)
-* [Ice Breaker Survey](https://goo.gl/forms/I2je3WAZsKbgPRUF3)
-
-# Communication
-* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-spr2019/shared_invite/enQtNTcxNjk2Mzk2Mjc5LWRiNzg5YzdlYzhjNDdhYzEzODRmNjhhM2Q3NzFiYzJiZTRkZTE0ZDIyOWQzZGZkY2VhNGEzOTM4Y2YzY2NmZmE)
-* [CEBD 1160 Slack] https://cebd1160-spring2019.slack.com/
