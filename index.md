@@ -6,7 +6,7 @@
 
 ## Communication
 * [Slack Channel Invitation](https://join.slack.com/t/cebd1160-spr2019/shared_invite/enQtNTcxNjk2Mzk2Mjc5LWRiNzg5YzdlYzhjNDdhYzEzODRmNjhhM2Q3NzFiYzJiZTRkZTE0ZDIyOWQzZGZkY2VhNGEzOTM4Y2YzY2NmZmE)
-* [CEBD 1160 Slack] https://cebd1160-spring2019.slack.com/
+* [CEBD 1160 Slack](https://cebd1160-spring2019.slack.com/)
 
 ## Course Outline
 1. Intro 2 Programming & Big Data
@@ -37,6 +37,8 @@
   - Choose a dataset & question you want to answer
   - Create a plan towards a solution
   - Answer the question
+  
+* [scikitlearn Toy Datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets)
 
 ### Journaling
   - Provide me with feedback
