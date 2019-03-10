@@ -1,4 +1,4 @@
-#*Introduction to Big Data Technology*
+# *Introduction to Big Data Technology*
 
 ## Links
 * [Weekly Journal](https://goo.gl/forms/rlyLeBesldb04FqQ2)
