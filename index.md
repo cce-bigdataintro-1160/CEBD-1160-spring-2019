@@ -21,7 +21,7 @@
 10. Projects & Applications of Data Science
 
 ## Evaluation
-* Project (60%)
+* [Project](./project.md) (60%)
   - Feasibility (10%)
   - Planning (20%)
   - Execution (30%)
@@ -30,21 +30,7 @@
 
 * Homework (30%)
 
-### Project 
-* Solve a real-world problem using data science techniques
 
-* Over the course of the term, we will:
-  - Choose a dataset & question you want to answer
-  - Create a plan towards a solution
-  - Answer the question
-  
-* [scikitlearn Toy Datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets)
-
-### Journaling
-  - Provide me with feedback
-  - Self-reflect on your progress
-  - Appreciate the hard work you’re putting in
-  - Communicate your expectations
 
 ### Homework
 - Each class we will come up with 3 tasks, worth a  total of 10 points:
