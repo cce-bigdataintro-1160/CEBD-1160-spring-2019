@@ -9,7 +9,7 @@
 * [CEBD 1160 Slack](https://cebd1160-spring2019.slack.com/)
 
 ## Course Outline
-1. Intro 2 Programming & Big Data
+1. [Intro 2 Programming & Big Data](./bash-git.md)
 2. Intro 2 Linux & Version Control
 3. Intro 2 Containerization & Shipping Software
 4. Python Data Structures and Conditionals
