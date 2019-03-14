@@ -11,7 +11,7 @@
 ## Course Outline
 1. [Intro 2 Programming & Big Data](./intro.md)
 2. [Intro 2 Linux & Version Control](./bash-git.md)
-3. Intro 2 Containerization & Shipping Software
+3. [Intro 2 Containerization & Shipping Software](.docker-python.md)
 4. Python Data Structures and Conditionals
 5. Python Loops and Functions
 6. Python Libraries & Numerical Analysis
