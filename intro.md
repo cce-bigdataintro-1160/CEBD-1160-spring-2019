@@ -23,15 +23,19 @@
 ## Advanced
 * formulate a scientific question for your dataset
   * based on the gender of the Titanic passengers, can we predict the mortality?
-  * what's the best feature we can use to predict the cost of a house>
+  * what's the best feature we can use to predict the cost of a house?
   * if it exists, what is the correlation between the genre of a movie and it's box office revenue?
   
 ## Reach
 * write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
-* present your dataset, formulated question and flowchart
+* present your dataset, formulated question and proposed solution
 * setup your home computer to use shell: http://swcarpentry.github.io/shell-novice/setup.html
 
 # Optional homework
 * Research what is an operating system shell. What's its purpose?
 * Research what is a versioning control system. What's its purpose?
 
+# Recommended Readings
+[Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data)
+[Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
+[Machine Learning Glossary](https://semanti.ca/blog/?glossary-of-machine-learning-terms)
