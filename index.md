@@ -8,27 +8,32 @@
 * [Slack Channel Invitation](https://join.slack.com/t/cebd1160-spr2019/shared_invite/enQtNTcxNjk2Mzk2Mjc5LWRiNzg5YzdlYzhjNDdhYzEzODRmNjhhM2Q3NzFiYzJiZTRkZTE0ZDIyOWQzZGZkY2VhNGEzOTM4Y2YzY2NmZmE)
 * [CEBD 1160 Slack](https://cebd1160-spring2019.slack.com/)
 
+## Calendar
+* Every Saturday from April 6 to June 15
+* THERE WILL BE NO CLASS ON these Holiday's weekends: 20/april and 18/may!!!
+* Class on June 15 will run from 9:00 to 11:00
+
 ## Course Outline
 1. [Intro 2 Programming & Big Data](./intro.md)
 2. [Intro 2 Linux & Version Control](./bash-git.md)
-3. [Intro 2 Containerization & Shipping Software](.docker-python.md)
-4. Python Data Structures and Conditionals
-5. Python Loops and Functions
-6. Python Libraries & Numerical Analysis
-7. Python Data Visualization
-8. Python Machine Learning
-9. Translating into R
-10. Projects & Applications of Data Science
+4. [Python Data Structures and Conditionals](./python.md)
+3. [Intro 2 Containerization & Shipping Software](./docker.md)
+5. [Python Loops and Functions](./python-flow.md)
+6. [Python Libraries & Numerical Analysis](./python-libs.md)
+7. [Python Data Visualization](./python-visualisation.md)
+8. [Python Machine Learning](./python-ml.md)
+9. [Overview of Big Data frameworks](./other-tech.md)
+10. [Projects & Applications of Data Science](./project.md)
 
 ## Evaluation
-* Project (60%)
-  - Feasibility (10%)
-  - Planning (20%)
-  - Execution (30%)
+* Project (40%)
+  - Feasibility (5%)
+  - Planning (15%)
+  - Execution (20%)
 
 * Journaling (10%)
 
-* Homework (30%)
+* Homework (50%)
 
 ### Project 
 * Solve a real-world problem using data science techniques
