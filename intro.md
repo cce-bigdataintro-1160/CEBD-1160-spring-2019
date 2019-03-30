@@ -13,7 +13,7 @@
 * Be able to differentiate a regression and classification problem
 
 # Homework
-- Don't forget to fill up the Weekly Journal! 
+* Don't forget to fill up the Weekly Journal! 
 
 ## Basic
 * make sure you can access the Slack channels for CEBD-1160! (all the following items should be submitted to me through Slack)
@@ -36,6 +36,6 @@
 * Research what is a versioning control system. What's its purpose?
 
 # Recommended Readings
-[Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data)
-[Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
-[Machine Learning Glossary](https://semanti.ca/blog/?glossary-of-machine-learning-terms)
+* [Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data)
+* [Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
+* [Machine Learning Glossary](https://semanti.ca/blog/?glossary-of-machine-learning-terms)
