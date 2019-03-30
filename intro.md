@@ -6,8 +6,9 @@
 
 # Goals
 * Understand the course format, objectices and grading
-* Understand what is Big Data and its characteristics
-  * Volume, Variety, Velocity, Veracity
+* Understand what is Big Data:
+  * the ecosystem
+  * the main characteristics: Volume, Variety, Velocity, Veracity
 * Be able to recognize a dataset and formulate a question for it  
 * Be able to differentiate a regression and classification problem
 
@@ -18,16 +19,19 @@
 * make sure you can access the Slack channels for CEBD-1160! (all the following items should be submitted to me through Slack)
 * create a GitHub account and make sure to send it to me with your full name
 * Project Kick-Off: pick a dataset from the sklearn toys dataset
+
 ## Advanced
 * formulate a scientific question for your dataset
   * based on the gender of the Titanic passengers, can we predict the mortality?
   * what's the best feature we can use to predict the cost of a house>
   * if it exists, what is the correlation between the genre of a movie and it's box office revenue?
+  
 ## Reach
 * write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
 * present your dataset, formulated question and flowchart
 * setup your home computer to use shell: http://swcarpentry.github.io/shell-novice/setup.html
 
 # Optional homework
-* Research what is a versioning control system. What can it be used for?
+* Research what is an operating system shell. What's its purpose?
+* Research what is a versioning control system. What's its purpose?
 
