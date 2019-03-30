@@ -1,8 +1,15 @@
 # Agenda
 * [Intro Slides](https://drive.google.com/open?id=1Ea1DruKUHzi632g7h51Vg3uPV6Kv5eka)
-* [Ensuring our communication on Slack]()
+* Ensuring our communication on Slack
 * [Reviewing Toys Datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets)
 * Homework
+
+# Goals
+* Understand the course format, objectices and grading
+* Understand what is Big Data and its characteristics
+  * Volume, Variety, Velocity, Veracity
+* Be able to recognize a dataset and formulate a question for it  
+* Be able to differentiate a regression and classification problem
 
 # Homework
 - Don't forget to fill up the Weekly Journal! 
@@ -20,3 +27,7 @@
 * write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
 * present your dataset, formulated question and flowchart
 * setup your home computer to use shell: http://swcarpentry.github.io/shell-novice/setup.html
+
+# Optional homework
+* Research what is a versioning control system. What can it be used for?
+
