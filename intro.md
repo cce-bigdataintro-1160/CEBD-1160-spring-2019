@@ -22,9 +22,9 @@
 
 ## Advanced
 1. formulate a scientific question for your dataset
-  a. based on the gender of the Titanic passengers, can we predict the mortality?
-  b. what's the best feature we can use to predict the cost of a house?
-  c. if it exists, what is the correlation between the genre of a movie and it's box office revenue?
+  * based on the gender of the Titanic passengers, can we predict the mortality?
+  * what's the best feature we can use to predict the cost of a house?
+  * if it exists, what is the correlation between the genre of a movie and it's box office revenue?
   
 ## Reach
 1. write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
