@@ -10,21 +10,58 @@
 # Intro to Shell
 
 ### Goals
-* Establish the foundation for our data analysis by understanding how the Linux shell works:
-  * Be able to Navigate through the file system
-  * Work with Files and Directories
-  * Use gnu core tools and compose them with pipes and filters
-  * Write loops to iterate over lists
-  * Create scripts to automate basic processes
-  * Find files and directories accross the filesystem
+Establish the foundation for our data analysis by understanding how the Linux shell works:
+##### Be able to Navigate through the file system:
 
-### Exercises
-* How do I customize my bash environment?
-* Print your history file in reverse order!
-* Can you explain the command ```du -a . | sort -n -r | head -n 20``` and why would you use it? 
-* Print all the pid's of all python processes running.
-* Write a script that allows the user to pick a food. Print and store it in the food.out file.
-* [Introducing the Shell](http://swcarpentry.github.io/shell-novice/)
+1. What is the `/` path? What does it contain?
+2. Navigate to`/var/log` and list its files. What do we have here?
+3. Type `cd ../../Users/<myusername>` Can you check your current dir? Can you list all the files in it recursively?
+4. Type `cd` to move to your home. Now test both commands below and explain the difference:
+    `cd Desktop`
+    `cd /Desktop`
+5. Assuming your current working directory is your Desktop, what `cd ~`, `cd .`, `cd ..` and `cd /` does?
+6. List all the files that have been modified in the `/etc` folder, ordered by last modification date.
+
+##### Work with Files and Directories
+
+1. Create a `file foods.txt` using the `nano` editor containing your 3 favorite food.
+2. Create a file `editor.fav` using the `vim` editor containing your favorite editor
+3. Create a file `default-editor` using the `open` command. What editor does it bring? Save the name of the editor in the file.
+4. Create a directory called `learning-shell` and move both your `editor.fav` and default-editor files is it.
+5. Copy the directory to `/Users/<myusername>/Desktop` with all the files in it
+6. Navigate to the directory where the files are and crete a new sub-directory called `nested-directory`. Move into it and check your current location.
+7. Now copy everything under `/Users/<myusername>/Desktop/learning-shell` as `/Users/<myusername>/mybackup` 
+8. Rename all files under `/Users/<myusername>/mybackup` adding the `bkp-` prefix to them.
+9. Move your `foods.txt` into the backup folder, renamed to `bkp-foods.txt`
+10. Delete your `/Users/<myusername>/Desktop/learning-shell` directory.
+
+##### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters.
+
+1. Download the `titanic.zip` file from Slack and without using the UI, unzip it.
+2. Can you provide the dimensions of this file `train.csv`?
+3. List the first 5 rows of the file. Now list the last 5.
+4. Print this file in your screen using `cat`, `less` and `more`.
+5. Find the person called `Torborg` in the file.
+6. Can you print only the names of all people in the file?
+7. Print this file in reverse order and save it's output to train_reverse.txt.
+8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
+9. Print only the `cd` commands you did today.
+10. Print all the `pid` of all `python` processes running.
+11. [Introducing the Shell](http://swcarpentry.github.io/shell-novice/)
+
+* Write loops to iterate over lists
+
+
+* Create scripts to automate basic processes
+
+
+1. Write a script that allows the user to pick a food. Print and store it in the food.out file.
+
+* Find files and directories accross the filesystem
+
+
+
+
 
 # Intro to Git
 
@@ -36,11 +73,11 @@
   * Understand how licensing works
 
 ### Exercises
-  - You accidentally committed with an ugly message, can you fix it?
-  - How can you display all your latest commits? What about the topology?
-  - How to remove a file you accidentally added to the staging area?
-  - How can i see differences between local and remote?
-  - How to see what I'm about to commit?
+  [ ] You accidentally committed with an ugly message, can you fix it?
+  [ ] How can you display all your latest commits? What about the topology?
+  [ ] How to remove a file you accidentally added to the staging area?
+  [ ] How can i see differences between local and remote?
+  [ ] How to see what I'm about to commit?
   * [Introducing Git](http://swcarpentry.github.io/git-novice/)
 
 # Homework
