@@ -41,27 +41,28 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 2. Can you provide the dimensions of this file `train.csv`?
 3. List the first 5 rows of the file. Now list the last 5.
 4. Print this file in your screen using `cat`, `less` and `more`.
-5. Find the person called `Torborg` in the file.
-6. Can you print only the names of all people in the file?
-7. Print this file in reverse order and save it's output to train_reverse.txt.
-8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
-9. Print only the `cd` commands you did today.
-10. Print all the `pid` of all `python` processes running.
-11. [Introducing the Shell](http://swcarpentry.github.io/shell-novice/)
+5. Can you print only the names of all people in the file?
+6. Print this file in reverse order and save it's output to train_reverse.txt.
+7. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
+8. Print only the `cd` commands you did today.
+9. Print all the `pid` of all `python` processes running.
 
-* Write loops to iterate over lists
+##### Write loops to iterate over lists
 
+1. Download the `ultratrail-du-montblanc.zip` file from Slack and without using the UI, unzip it to `/Users/<myusername>/ultratrail`
+2. Write a loop that prints the name, dimensions and first 2 lines for each of the `.csv` files.
+3. Write a loop that copies each of the `.csv` files with the prefix `bkp-` to a folder `/Users/<myusername>/ultratrail/backups`. 
 
-* Create scripts to automate basic processes
+##### Create scripts to automate basic processes
 
+1. Write a script that allows the user to pick their favorite color, then save it to color.txt and print it to the console.
+2. Write a script that backups up and cleans directories '/Users/<myusername>/veryimportant/*.csv' and '/Users/<myusername>/ultraimportant/*.xls'. Can we automate it's daily execution?
 
-1. Write a script that allows the user to pick a food. Print and store it in the food.out file.
+##### Finding files and contents in files
 
-* Find files and directories accross the filesystem
-
-
-
-
+1. Download the `titanic.zip` file from Slack and without using the UI, unzip it.
+2. Find the person called `Torborg` in the file.
+3. Count how many people were male and female in the file.
 
 # Intro to Git
 
