@@ -21,7 +21,7 @@
 ### Exercises
 * How do I customize my bash environment?
 * Print your history file in reverse order!
-* Can you explain the command du -a . | sort -n -r | head -n 20 and why would you use it? 
+* Can you explain the command ```du -a . | sort -n -r | head -n 20``` and why would you use it? 
 * Print all the pid's of all python processes running.
 * Write a script that allows the user to pick a food. Print and store it in the food.out file.
 * [Introducing the Shell](http://swcarpentry.github.io/shell-novice/)
@@ -50,7 +50,7 @@
 1. Find a text editor you like! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim. 
 2. Install `git`/`bash` on your local machine at home, recommended steps here: [Shell Setup](http://swcarpentry.github.io/shell-novice/setup.html)
 3. Install `python`, recommended steps here: [Git Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d recommend Option 3 (via Installing it through Anaconda) as it will make future steps much easier.
-4. Complete the Software Carpentry Unix lesson send me:???
+4. Complete the Software Carpentry Unix lesson send me:
 ```$ wc -l * | head -n 3 | sort -n``` ???
 
 ## Advanced
