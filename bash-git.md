@@ -1,15 +1,15 @@
 
-# *Intro 2 Linux & Version Control*
+# Intro 2 Linux & Version Control
 
-# Agenda
+### Agenda
 * Homework Check
 * Intro to Shell
 * Intro to Git
 * Homework
 
-# Intro to Shell
+### Intro to Shell
 
-### Goals
+##### Goals
 Establish the foundation for our data analysis by understanding how the Linux shell works:
 ##### Be able to Navigate through the file system:
 
@@ -66,9 +66,9 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 4. Count how many people called `John` are in the file and how many of them are male or female
 5. Find all csv files in your home directory
 
-# Intro to Git
+### Intro to Git
 
-### Goals
+##### Goals
 Learn the basics of a versioning control system to enable work organization and collaboration
 
 ##### Understanding the necessity for a versioning system
@@ -98,19 +98,19 @@ Learn the basics of a versioning control system to enable work organization and 
 
 ##### Understand what licensing is
 
-# Homework
+### Homework
 * Don't forget to fill up the Weekly Journal! 
 
-## Basic
+##### Basic
 1. Find a text editor you like! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
 2. Install `git`/`bash` on your local machine at home, recommended steps here: [Shell Setup](http://swcarpentry.github.io/shell-novice/setup.html)
 3. Install `python`, recommended steps here: [Git Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
 4. Complete the Software Carpentry Unix lesson send me what this command does: `$ wc -l * | head -n 3 | sort -n`
 
-## Advanced
+##### Advanced
 1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). We will plan to spend up to 1 hour in class next week going over `git`, depending on how successful the class is at the following reach challenge.
   
-## Reach
+##### Reach
 1. Be a `git` master! That is, do the following *from scratch*:
   * create a new repository on Github, with a license and a readme
   * clone it locally
@@ -122,15 +122,15 @@ Learn the basics of a versioning control system to enable work organization and 
   * push your changes to Github
   * send me the url for your Github repository
 
-# Optional homework
+### Optional homework
 * What commands we learned are useful for data exploration and why?
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
-# Recommended Readings
+### Recommended Readings
 * [Git Documentation](https://git-scm.com/doc)
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
 
-# Advanced exercises material
+### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
 * Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
