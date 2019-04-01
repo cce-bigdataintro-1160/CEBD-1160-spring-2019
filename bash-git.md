@@ -56,40 +56,56 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Create scripts to automate basic processes
 
 1. Write a script that allows the user to pick their favorite color, then save it to color.txt and print it to the console.
-2. Write a script that backups up and cleans directories '/Users/<myusername>/veryimportant/*.csv' and '/Users/<myusername>/ultraimportant/*.xls'. Can we automate it's daily execution?
+2. Write a script that backups up and cleans directories '/Users/<myusername>/veryimportant/*.csv' and '/Users/<myusername>/ultraimportant/*.xls'. How can we automate it's daily execution?
 
 ##### Finding files and contents in files
 
 1. Download the `titanic.zip` file from Slack and without using the UI, unzip it.
-2. Find the person called `Torborg` in the file.
-3. Count how many people were male and female in the file.
+2. Find the person called `Torborg` in the file `train.csv`
+3. Count how many people were male and female in the file
+4. Count how many people called `John` are in the file and how many of them are male or female
+5. Find all csv files in your home directory
 
 # Intro to Git
 
 ### Goals
-* Learn the basics of a versioning control system to enable work organization and collaboration
-  * Create a git repository and commit to it
-  * Track changes and see the history of changes
-  * Add remotes and push code to GitHub
-  * Understand how licensing works
+Learn the basics of a versioning control system to enable work organization and collaboration
 
-### Exercises
-  [ ] You accidentally committed with an ugly message, can you fix it?
-  [ ] How can you display all your latest commits? What about the topology?
-  [ ] How to remove a file you accidentally added to the staging area?
-  [ ] How can i see differences between local and remote?
-  [ ] How to see what I'm about to commit?
-  * [Introducing Git](http://swcarpentry.github.io/git-novice/)
+##### Understanding the necessity for a versioning system
+1. How do you currently collaborate in your work? What's the versioning system used there?
+
+##### Creating a repository and doing your first commit.
+1. Create a directory called `my-first-repo`. Navigate to it and initialize a `git` repository. Check it's status
+2. Add a few files with a few lines of text each in the directory and check the status again.
+3. Use `git add` to add one of those files to your staging area. Check the status
+4. Use `git commit` to commit that file to git. Check the status
+5. Use `git add` to add a second of those files to your staging area. Use `git commit` to commit that file to git. Check the status 
+6. Use `git log` to see the history of your actions and `git diff` to see what are the changes in each commit
+7. Add a few files to your staging area. Are you able to revert it?
+
+##### Create a branch to split your development
+1. Create a branch called `my-branch` and add a commit to it.
+2. Checkout your `master` and create another branch. Add two commits to it.
+3. Checkout your master again and merge both branches into it.
+4. Visualize with `git log --graph --oneline --decorate --all` what happened.
+
+##### Collaborate using git
+1. Push all of your changes in your current repository to a remote git repository in GitHub.
+2. Clone my existing repository into your local machine.
+
+##### Ignore files that don't need versioning
+1. Create a .gitignore file and test it with a file
+
+##### Understand what licensing is
 
 # Homework
 * Don't forget to fill up the Weekly Journal! 
 
 ## Basic
-1. Find a text editor you like! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim. 
+1. Find a text editor you like! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
 2. Install `git`/`bash` on your local machine at home, recommended steps here: [Shell Setup](http://swcarpentry.github.io/shell-novice/setup.html)
-3. Install `python`, recommended steps here: [Git Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d recommend Option 3 (via Installing it through Anaconda) as it will make future steps much easier.
-4. Complete the Software Carpentry Unix lesson send me:
-```$ wc -l * | head -n 3 | sort -n``` ???
+3. Install `python`, recommended steps here: [Git Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
+4. Complete the Software Carpentry Unix lesson send me what this command does: `$ wc -l * | head -n 3 | sort -n`
 
 ## Advanced
 1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). We will plan to spend up to 1 hour in class next week going over `git`, depending on how successful the class is at the following reach challenge.
@@ -108,10 +124,13 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 
 # Optional homework
 * What commands we learned are useful for data exploration and why?
-* Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
-* Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
-* Python Basics!!!
+* Do a quick research explaining what are the main pros and cons of the Python language.
 
 # Recommended Readings
 * [Git Documentation](https://git-scm.com/doc)
+* [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
+
+# Advanced exercises material
+* Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
+* Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
