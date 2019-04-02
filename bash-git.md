@@ -1,4 +1,3 @@
-
 # Intro 2 Linux & Version Control
 
 ### Agenda
@@ -11,6 +10,7 @@
 
 ##### Goals
 Establish the foundation for our data analysis by understanding how the Linux shell works:
+
 ##### Be able to Navigate through the file system:
 
 1. What is the `/` path? What does it contain?
@@ -77,10 +77,10 @@ Learn the basics of a versioning control system to enable work organization and 
 ##### Creating a repository and doing your first commit.
 1. Create a directory called `my-first-repo`. Navigate to it and initialize a `git` repository. Check it's status
 2. Add a few files with a few lines of text each in the directory and check the status again.
-3. Use `git add` to add one of those files to your staging area. Check the status
-4. Use `git commit` to commit that file to git. Check the status
-5. Use `git add` to add a second of those files to your staging area. Use `git commit` to commit that file to git. Check the status 
-6. Use `git log` to see the history of your actions and `git diff` to see what are the changes in each commit
+3. Add one of those files to your staging area. Check the status
+4. Commit that file to git. Check the status
+5. Add a second of those files to your staging area. Commit that file to git. Check the status 
+6. See the history of your actions and see what are the changes in each commit
 7. Add a few files to your staging area. Are you able to revert it?
 
 ##### Create a branch to split your development
