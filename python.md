@@ -51,16 +51,21 @@ Get acquainted with the Python language, that we'll use for data exploration and
 1. Write a script called `hello_script.py`. It should take one number as input. If the number is equal to 42 print `right answer to life the universe and everything`. If the number is not 42 print `wrong answer`. If the input is not a number print `Sorry, invalid input, expecting number`.
 
 ##### Flow Control with Conditionals
-1. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
-2. A script that returns the lesser of two numbers if both numbers are odd, but returns the greater one if one or both numbers are even!
-3. A script that returns the number of prime numbers that exist up to an input number
+1. A script that returns the lesser of two numbers if both numbers are odd, but returns the greater one if one or both numbers are even!
+2. A script that receives two parameters and returns True if the sum of both is 50 or if one of the integers is 20. If not, return False
 
 ##### Loops
-1. Can you find the maximum or minimum integer value in a list.
+1. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
+2. Can you find the maximum or minimum integer value in a list.
+3. If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
 
 ##### Files
 1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person.
-2. 
+2. ???
+
+##### Extra Exercises
+1. A script that returns the number of prime numbers that exist up to an input number
 
 ### Homework
 * Don't forget to fill up the Weekly Journal! 
@@ -72,7 +77,7 @@ Get acquainted with the Python language, that we'll use for data exploration and
 3. Install Docker community edition on your personal computers
 
 ##### Advanced
-1. Complete Introduction to Python Software Carpentry
+1. Complete [Introduction to Python Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/). You'll need to import the library numpy to do this! ()
   
 ##### Reach
 1. From your list of python values completed in 1, create a new list for each of the columns in the dataset (i.e. if there are 10 columns/features, extract each feature into its own list, and print them)
