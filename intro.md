@@ -7,7 +7,7 @@
 * Homework
 
 ### Goals
-* Understand the course format, objectices and grading
+* Understand the course format, objectives and grading
 * Understand what is Big Data:
   * the ecosystem
   * the main characteristics: Volume, Variety, Velocity, Veracity, Value
