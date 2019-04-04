@@ -10,7 +10,7 @@
 * Understand the course format, objectices and grading
 * Understand what is Big Data:
   * the ecosystem
-  * the main characteristics: Volume, Variety, Velocity, Veracity
+  * the main characteristics: Volume, Variety, Velocity, Veracity, Value
 * Be able to recognize a dataset and formulate a question for it  
 * Be able to differentiate a regression and classification problem
 
