@@ -60,12 +60,13 @@ Get acquainted with the Python language, that we'll use for data exploration and
 3. If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-##### Files
-1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person.
+##### Error
+1. Write a script that can convert a string into an int and print its value and type on the console. If the value can't be converted print: `bad string {} couldn't be cast to int`
 2. ???
 
-##### Extra Exercises
-1. A script that returns the number of prime numbers that exist up to an input number
+##### Files
+1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person. Output the prefixed text and output the final count for each.
+2. Open and print the [boston.housing](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data). Can you print it value by value?
 
 ### Homework
 * Don't forget to fill up the Weekly Journal! 
