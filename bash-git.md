@@ -130,6 +130,7 @@ Learn the basics of a versioning control system to enable work organization and 
 * [Git Documentation](https://git-scm.com/doc)
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
+* [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 
 ### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
