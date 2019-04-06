@@ -27,9 +27,14 @@
   
 ##### Reach
 1. write the steps (or make a flowchart) detailing your preliminary idea of how to answer it
-2. present your dataset, formulated question and proposed solution. Be as detailed as you can
-3. setup your home computer to use a shell, a terminal or bash. You can follow these recommended instructions http://swcarpentry.github.io/shell-novice/setup.html or if you're comfortable try to use the Windows Subsystem for Linux (WSL)
-or a VBox with Ubuntu installed.
+2. setup your home computer to use shell. the recommended ways to do this in windows:(only one of these steps is necessary!)
+2.1 Install git bash (https://git-scm.com/downloads)
+2.2. Install the WSL (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+2.3. Use a VirtualBox image!!! 
+   * Install VirtualBox https://www.virtualbox.org/
+   * Download the image Ubuntu.ova from this link https://drive.google.com/open?id=1Z-DHx9OHS3F_1pKRaABXhFu_9fJ_3bFs
+   * Import the OVA image using the following steps: https://www.maketecheasier.com/import-export-ova-files-in-virtualbox/
+   * Launch your virtual environment double clicking on the Ubuntu machine!
 
 ### Optional homework
 * Research what is an operating system shell/terminal. What's its purpose?
