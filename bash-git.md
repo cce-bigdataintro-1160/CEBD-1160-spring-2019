@@ -130,10 +130,12 @@ Learn the basics of a versioning control system to enable work organization and 
 
 ### Recommended Readings
 * [Git Documentation](https://git-scm.com/doc)
-* [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
 * [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+* [Most popular Open Source licenses](https://opensource.org/licenses)
 
 ### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
 * Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
+* Extension to use the shell like a boss: [Oh My Zsh](https://ohmyz.sh/)
+
