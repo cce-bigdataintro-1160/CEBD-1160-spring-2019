@@ -94,8 +94,7 @@ Learn the basics of a versioning control system to enable work organization and 
 4. Visualize with `git log --graph --oneline --decorate --all` what happened.
 
 ##### Collaborate using git
-1. Push all of your changes in your current repository to a remote git repository in GitHub.
-2. Clone my existing repository into your local machine.
+1. Create a repository in GitHub, clone it and commit a file into it.
 
 ##### Ignore files that don't need versioning
 1. Create a .gitignore file and test it with a file
@@ -106,10 +105,9 @@ Learn the basics of a versioning control system to enable work organization and 
 * Don't forget to fill up the Weekly Journal! 
 
 ##### Basic
-1. Find a text editor you like! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
-2. Install `git`/`bash` on your local machine at home, recommended steps here: [Shell Setup](http://swcarpentry.github.io/shell-novice/setup.html)
-3. Install `python`, recommended steps here: [Git Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
-4. Complete the Software Carpentry Unix lesson send me what this command does: `$ wc -l * | head -n 3 | sort -n`
+1. Make sure you have your `bash installed`, and then choose a text editor you like to use at home! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
+2. Install `python`, recommended steps here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
+3. Complete the Software Carpentry Unix lesson send me what this command does: `$ wc -l * | head -n 3 | sort -n`
 
 ##### Advanced
 1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). We will plan to spend up to 1 hour in class next week going over `git`, depending on how successful the class is at the following reach challenge.
