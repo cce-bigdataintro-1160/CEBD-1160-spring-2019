@@ -13,58 +13,62 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 
 ##### Be able to Navigate through the file system:
 
-1. What is the `/` path? What does it contain?
-2. Navigate to`/var/log` and list its files. What do we have here?
-3. Type `cd ../../Users/<myusername>` Can you check your current dir? Can you list all the files in it recursively?
-4. Type `cd` to move to your home. Now test both commands below and explain the difference:
+1. Find out what's your username. Find your home folder and list its contents.
+2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
+3. Navigate to `/var/log` and list its files. What do we have here?
+4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, what's the name of this directory?
+5. Test the following commands: `cd ~`, `cd .`, `cd ..` and `cd /`. Can you explain what each of those symbols mean?
+6. From your home directory test both commands below and explain the difference:
     `cd Desktop`
     `cd /Desktop`
-5. Assuming your current working directory is your Desktop, what `cd ~`, `cd .`, `cd ..` and `cd /` does?
-6. List all the files that have been modified in the `/etc` folder, ordered by last modification date.
+7. What command can give you the most recently modified file in your home directory?
+8. Download the file titanic.zip from Slack and locate it through the Terminal by listing it
 
 ##### Work with Files and Directories
 
-1. Create a `file foods.txt` using the `nano` editor containing your 3 favorite food.
-2. Create a file `editor.fav` using the `vim` editor containing your favorite editor
-3. Create a file `default-editor` using the `open` command. What editor does it bring? Save the name of the editor in the file.
-4. Create a directory called `learning-shell` and move both your `editor.fav` and default-editor files is it.
-5. Copy the directory to `/Users/<myusername>/Desktop` with all the files in it
-6. Navigate to the directory where the files are and crete a new sub-directory called `nested-directory`. Move into it and check your current location.
-7. Now copy everything under `/Users/<myusername>/Desktop/learning-shell` as `/Users/<myusername>/mybackup` 
-8. Rename all files under `/Users/<myusername>/mybackup` adding the `bkp-` prefix to them.
-9. Move your `foods.txt` into the backup folder, renamed to `bkp-foods.txt`
-10. Delete your `/Users/<myusername>/Desktop/learning-shell` directory.
+1. Create a directory called `learning-shell` in your home directory.
+2. Create a file (using vi or nano) called `mylinux-file.txt`, write a few lines of text and save it.
+3. Print the contents of your file on the console/terminal screen
+4. Move the `mylinux-file.txt` file in the `learning-shell` directory.
+5. Print the contents of your file without navigating into the `learning-shell` directory. This means you have to print it from your home folder!
+6. Copy the directory `learning-shell` to your Desktop.
+7. Navigate to the copied folder on your Desktop and create another directory inside it, called `nested-folder`. Navigate into it and check your current location.
+8. Inside your `nested-folder` directory, create a file called `precious-dataset.csv` (using vi or nano). Add a few precious lines in it.
+9. Copy everything under `/Users/<myusername>/Desktop/learning-shell` to `/Users/<myusername>/Desktop/mybackup`
+10. Rename all files under `/Users/<myusername>/Desktop/mybackup` adding the `bkp-` prefix to their names.
+11. Check all of your changes using the UI
+12. Delete your `/Users/<myusername>/Desktop/learning-shell` directory.
 
 ##### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters.
 
-1. Download the `titanic.zip` file from Slack and without using the UI, unzip it.
-2. Can you provide the dimensions of this file `train.csv`?
+1. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
+2. Provide the shape/dimensions of the file `train.csv`?
 3. List the first 5 rows of the file. Now list the last 5.
-4. Print this file in your screen using `cat`, `less` and `more`.
+4. Print this file in your screen using `cat` now use the `less` command.
 5. Can you print only the names of all people in the file?
-6. Print this file in reverse order and save it's output to train_reverse.txt.
-7. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
-8. Print only the `cd` commands you did today.
-9. Print all the `pid` of all `python` processes running.
+6. Print this file in reverse order and save the output to train_reverse.txt.
+7. Print only the lines 3 to 5 of the file?
+8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
+9. Print only the `cd` commands you did today.
+10. Split the train.csv file in multiple files with 20 lines each. 
 
 ##### Write loops to iterate over lists
 
-1. Download the `ultratrail-du-montblanc.zip` file from Slack and without using the UI, unzip it to `/Users/<myusername>/ultratrail`
-2. Write a loop that prints the name, dimensions and first 2 lines for each of the `.csv` files.
+1. Download the `ultratrail-du-montblanc.zip` file from Slack and unzip it to `/Users/<myusername>/ultratrail`
+2. Write a loop that prints the name, dimension and first 2 lines for each of the `.csv` files.
 3. Write a loop that copies each of the `.csv` files with the prefix `bkp-` to a folder `/Users/<myusername>/ultratrail/backups`. 
 
 ##### Create scripts to automate basic processes
 
-1. Write a script that allows the user to pick their favorite color, then save it to color.txt and print it to the console.
-2. Write a script that backups up and cleans directories '/Users/<myusername>/veryimportant/*.csv' and '/Users/<myusername>/ultraimportant/*.xls'. How can we automate it's daily execution?
+1. Write a script that suggests 5 data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the read command to read the user input!
+2. Write a script that removes the N number of lines of all files in '/Users/<myusername>/files_with_headers/*.csv'. If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? N should be an argument passed before starting the script!
 
 ##### Finding files and contents in files
 
-1. Download the `titanic.zip` file from Slack and without using the UI, unzip it.
-2. Find the person called `Torborg` in the file `train.csv`
-3. Count how many people were male and female in the file
-4. Count how many people called `John` are in the file and how many of them are male or female
-5. Find all csv files in your home directory
+1. Find the person called `Torborg` in the file `train.csv`
+2. Count how many people were male and female in the file
+3. Count how many people called `John` are in the file and how many of them are male or female
+4. Find all csv files in your home directory. Play with the -maxdepth flag to see the difference.
 
 ### Intro to Git
 
