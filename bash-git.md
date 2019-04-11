@@ -6,18 +6,28 @@
 * Intro to Git
 * Homework
 
+### A brief introduction to Linux
+* [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
+* [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+
 ### Intro to Shell
+* [The shell](./shell.png)
+* [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 ##### Goals
 Establish the foundation for our data analysis by understanding how the Linux shell works:
+* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
+* [The man command - manual](http://www.linfo.org/man.html)
+* [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/)
 
 ##### Be able to Navigate through the file system:
+* [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 
 1. Find out what's your username. Find your home folder and list its contents.
 2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
 3. Navigate to `/var/log` and list its files. What do we have here?
-4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, what's the name of this directory?
-5. Test the following commands: `cd ~`, `cd .`, `cd ..` and `cd /`. Can you explain what each of those symbols mean?
+4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
+5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
 6. From your home directory test both commands below and explain the difference:
     `cd Desktop`
     `cd /Desktop`
@@ -27,16 +37,16 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Work with Files and Directories
 
 1. Create a directory called `learning-shell` in your home directory.
-2. Create a file (using vi or nano) called `mylinux-file.txt`, write a few lines of text and save it.
-3. Print the contents of your file on the console/terminal screen
-4. Move the `mylinux-file.txt` file in the `learning-shell` directory.
+2. Create a file (using vi or nano) called `a_dataset.csv` in your home directory, write a few csv lines in it and save it.
+3. Print the contents of your file on the console/terminal screen.
+4. Move the `a_dataset.csv` file in the `learning-shell` directory.
 5. Print the contents of your file without navigating into the `learning-shell` directory. This means you have to print it from your home folder!
-6. Copy the directory `learning-shell` to your Desktop.
-7. Navigate to the copied folder on your Desktop and create another directory inside it, called `nested-folder`. Navigate into it and check your current location.
+6. Copy the directory `learning-shell` to your `~/Desktop`.
+7. Navigate to the copied `learning-shell` folder on your `~/Desktop` and create another directory inside it, called `nested-folder`. Navigate into it and check your current location, it should be `/Users/<myusername>/Desktop/learning-shell/nested-folder`
 8. Inside your `nested-folder` directory, create a file called `precious-dataset.csv` (using vi or nano). Add a few precious lines in it.
 9. Copy everything under `/Users/<myusername>/Desktop/learning-shell` to `/Users/<myusername>/Desktop/mybackup`
 10. Rename all files under `/Users/<myusername>/Desktop/mybackup` adding the `bkp-` prefix to their names.
-11. Check all of your changes using the UI
+11. Check all of your changes using the MacOS UI
 12. Delete your `/Users/<myusername>/Desktop/learning-shell` directory.
 
 ##### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters.
@@ -71,6 +81,8 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 4. Find all csv files in your home directory. Play with the -maxdepth flag to see the difference.
 
 ### Intro to Git
+* [Official Pro Git Book](https://git-scm.com/book/en/v2)
+* [Git Reference](https://git-scm.com/docs)
 
 ##### Goals
 Learn the basics of a versioning control system to enable work organization and collaboration
@@ -87,6 +99,12 @@ Learn the basics of a versioning control system to enable work organization and 
 6. See the history of your actions and see what are the changes in each commit
 7. Add a few files to your staging area. Are you able to revert it?
 
+##### Undoing things
+1. Undo a non-staged change
+2. Undo a staged change
+3. Undo a commited change
+4. Reset your master branch to an older commit
+
 ##### Create a branch to split your development
 1. Create a branch called `my-branch` and add a commit to it.
 2. Checkout your `master` and create another branch. Add two commits to it.
@@ -100,6 +118,8 @@ Learn the basics of a versioning control system to enable work organization and 
 1. Create a .gitignore file and test it with a file
 
 ##### Understand what licensing is
+* [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository)
+* [Choose a license](https://choosealicense.com/)
 
 ### Homework
 * Don't forget to fill up the Weekly Journal! 
@@ -107,7 +127,8 @@ Learn the basics of a versioning control system to enable work organization and 
 ##### Basic
 1. Make sure you have your `bash installed`, and then choose a text editor you like to use at home! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
 2. Install `python`, recommended steps here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
-3. Complete the Software Carpentry Unix lesson send me what this command does: `$ wc -l * | head -n 3 | sort -n`
+3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/) lesson send me what this command does: 
+   `$ wc -l * | head -n 3 | sort -n`
 
 ##### Advanced
 1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). We will plan to spend up to 1 hour in class next week going over `git`, depending on how successful the class is at the following reach challenge.
@@ -128,11 +149,10 @@ Learn the basics of a versioning control system to enable work organization and 
 * What commands we learned are useful for data exploration and why?
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
-### Recommended Readings
+### Recommended References
 * [Git Documentation](https://git-scm.com/doc)
-* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
-* [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 * [Most popular Open Source licenses](https://opensource.org/licenses)
+* [Interactive](https://explainshell.com/)
 
 ### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
