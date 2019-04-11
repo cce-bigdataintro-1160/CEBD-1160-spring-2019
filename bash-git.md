@@ -37,17 +37,16 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Work with Files and Directories
 
 1. Create a directory called `learning-shell` in your home directory.
-2. Create a file (using vi or nano) called `a_dataset.csv` in your home directory, write a few csv lines in it and save it.
-3. Print the contents of your file on the console/terminal screen.
-4. Move the `a_dataset.csv` file in the `learning-shell` directory.
-5. Print the contents of your file without navigating into the `learning-shell` directory. This means you have to print it from your home folder!
-6. Copy the directory `learning-shell` to your `~/Desktop`.
-7. Navigate to the copied `learning-shell` folder on your `~/Desktop` and create another directory inside it, called `nested-folder`. Navigate into it and check your current location, it should be `/Users/<myusername>/Desktop/learning-shell/nested-folder`
-8. Inside your `nested-folder` directory, create a file called `precious-dataset.csv` (using vi or nano). Add a few precious lines in it.
-9. Copy everything under `/Users/<myusername>/Desktop/learning-shell` to `/Users/<myusername>/Desktop/mybackup`
-10. Rename all files under `/Users/<myusername>/Desktop/mybackup` adding the `bkp-` prefix to their names.
+2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip -d random-datasets`. Do not use the UI for these steps!
+3. The files are highly unorganized! Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending`. Second, move all the remaining files that have a `.json` extension into `country-data`. Third, move the `Iris.csv` file into `iris-species`.
+4. This looks much better, but now rename the file `master.csv` to `suicides_dataset.csv`
+5. Delete the duplicated `iris-species copy` directory.
+6. Create three new directories: `csv`, `json` and `mixed`
+7. Move all the directories and datasets that are based on `csv` files in the `csv` directory, `json` files to `json` directory and finally move the `total-public-construction-spending-data` into the `mixed` directory.
+8. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory, name it as `learning-shell-bkp`
+9. Print some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
+10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 11. Check all of your changes using the MacOS UI
-12. Delete your `/Users/<myusername>/Desktop/learning-shell` directory.
 
 ##### Use External Tools and Gnu Core Tools to enhance your shell skills. Compose them using pipes and filters.
 
@@ -71,16 +70,17 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Create scripts to automate basic processes
 
 1. Write a script that suggests 5 data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the read command to read the user input!
-2. Write a script that removes the N number of lines of all files in '/Users/<myusername>/files_with_headers/*.csv'. If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? N should be an argument passed before starting the script!
+2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_with_headers/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? 
 
 ##### Finding files and contents in files
 
-1. Find the person called `Torborg` in the file `train.csv`
+1. Find the person called `Torborg` in the titanic file `train.csv`
 2. Count how many people were male and female in the file
 3. Count how many people called `John` are in the file and how many of them are male or female
 4. Find all csv files in your home directory. Play with the -maxdepth flag to see the difference.
 
 ### Intro to Git
+* [About Git](https://git-scm.com/about/)
 * [Official Pro Git Book](https://git-scm.com/book/en/v2)
 * [Git Reference](https://git-scm.com/docs)
 
@@ -88,7 +88,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 Learn the basics of a versioning control system to enable work organization and collaboration
 
 ##### Understanding the necessity for a versioning system
-1. How do you currently collaborate in your work? What's the versioning system used there?
+How do you currently collaborate in your work? What's the versioning system used there?
 
 ##### Creating a repository and doing your first commit.
 1. Create a directory called `my-first-repo`. Navigate to it and initialize a `git` repository. Check it's status
@@ -152,7 +152,8 @@ Learn the basics of a versioning control system to enable work organization and 
 ### Recommended References
 * [Git Documentation](https://git-scm.com/doc)
 * [Most popular Open Source licenses](https://opensource.org/licenses)
-* [Interactive](https://explainshell.com/)
+* [InteractiveMan ](https://explainshell.com/)
+* [Scheduling Scripts in Linux](https://en.wikipedia.org/wiki/Cron)
 
 ### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
