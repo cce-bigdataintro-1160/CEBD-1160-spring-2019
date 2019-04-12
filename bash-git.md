@@ -37,14 +37,14 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Work with Files and Directories
 
 1. Create a directory called `learning-shell` in your home directory.
-2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip -d random-datasets`. Do not use the UI for these steps!
+2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip`. Do not use the UI for these steps!
 3. The files are highly unorganized! Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending`. Second, move all the remaining files that have a `.json` extension into `country-data`. Third, move the `Iris.csv` file into `iris-species`.
 4. This looks much better, but now rename the file `master.csv` to `suicides_dataset.csv`
 5. Delete the duplicated `iris-species copy` directory.
 6. Create three new directories: `csv`, `json` and `mixed`
-7. Move all the directories and datasets that are based on `csv` files in the `csv` directory, `json` files to `json` directory and finally move the `total-public-construction-spending-data` into the `mixed` directory.
+7. Move `country-data` directory to `json` directory, move the `total-public-construction-spending-data` into the `mixed` directory and finally move all the remaining files and directories in `csv`
 8. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory, name it as `learning-shell-bkp`
-9. Print some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
+9. Look at those files contents by printing some files in your directories using `cat` or `less`. Experiment with `absolute` and `relative` paths.
 10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 11. Check all of your changes using the MacOS UI
 
@@ -55,11 +55,10 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 3. List the first 5 rows of the file. Now list the last 5.
 4. Print this file in your screen using `cat` now use the `less` command.
 5. Can you print only the names of all people in the file?
-6. Print this file in reverse order and save the output to train_reverse.txt.
+6. Print this file last 5 lines save the output to train_tail.csv
 7. Print only the lines 3 to 5 of the file?
 8. Can you explain the command `du -a . | sort -n -r | head -n 20` and why would you use it? 
-9. Print only the `cd` commands you did today.
-10. Split the train.csv file in multiple files with 20 lines each. 
+9. Split the train.csv file in multiple files with 20 lines each. 
 
 ##### Write loops to iterate over lists
 
@@ -69,15 +68,16 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 
 ##### Create scripts to automate basic processes
 
-1. Write a script that suggests 5 data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the read command to read the user input!
-2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_with_headers/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? 
+1. Write a script that suggests the data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the `read` command to read the user input!
+2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? 
 
 ##### Finding files and contents in files
 
 1. Find the person called `Torborg` in the titanic file `train.csv`
 2. Count how many people were male and female in the file
 3. Count how many people called `John` are in the file and how many of them are male or female
-4. Find all csv files in your home directory. Play with the -maxdepth flag to see the difference.
+4. Find all csv files in your home directory. Play with the `-maxdepth` flag to see the difference.
+5. Print all the `grep` commands you did today.
 
 ### Intro to Git
 * [About Git](https://git-scm.com/about/)
@@ -100,7 +100,7 @@ How do you currently collaborate in your work? What's the versioning system used
 6. See the history of your actions and see what are the changes in each commit
 7. Use just one more commit for the remaining files. Check the `git status` 
 8. Use `git log` to visualize what happened
-9. Checkout your second commit, check what happened to the files now
+9. Check the files using `ls`, then checkout your second commit, check what happened to the files now
 10. Checkout your master branch, check what happened to the files
 
 ##### Undoing things
@@ -117,10 +117,12 @@ How do you currently collaborate in your work? What's the versioning system used
 4. Visualize with `git log --graph --oneline --decorate --all` what happened.
 
 ##### Collaborate using git
-1. Create a repository in GitHub, clone it and commit a file into it
+1. Create a repository `class2-notebook` in GitHub and clone it.
+2. In the cloned repository you must create, add and commit a file called `README.MD`.
 2. Push your changes to GitHub in order to ensure the changes are stored in your `remote`
 3. Use GitHub UI in your browser to modify the file and commit it.
 4. Pull all the changes that happened remotely to your local git repository.
+5. Add your class notes to this notebook, commit and push it again.
 
 ##### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository)
