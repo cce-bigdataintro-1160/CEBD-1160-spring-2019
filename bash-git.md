@@ -83,6 +83,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 * [About Git](https://git-scm.com/about/)
 * [Official Pro Git Book](https://git-scm.com/book/en/v2)
 * [Git Reference](https://git-scm.com/docs)
+* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday)
 
 ##### Goals
 Learn the basics of a versioning control system to enable work organization and collaboration
@@ -91,47 +92,62 @@ Learn the basics of a versioning control system to enable work organization and 
 How do you currently collaborate in your work? What's the versioning system used there?
 
 ##### Creating a repository and doing your first commit.
-1. Create a directory called `my-first-repo`. Navigate to it and initialize a `git` repository. Check it's status
-2. Add a few files with a few lines of text each in the directory and check the status again.
-3. Add one of those files to your staging area. Check the status
-4. Commit that file to git. Check the status
-5. Add a second of those files to your staging area. Commit that file to git. Check the status 
+1. Create a directory called `my-first-repo`. Navigate to it and initialize a `git` repository. Check it's `git status`
+2. Add the files `cleaner.py`, `processor.py`, `submit.py`, `data.csv`, write a few lines in each. Check the `git status` again.
+3. Add one of those files to your staging area. Check the `git status`
+4. Commit that file to git. Check the `git status`
+5. Add a second of those files to your staging area. Commit that file to git. Check the `git status` 
 6. See the history of your actions and see what are the changes in each commit
-7. Add a few files to your staging area. Are you able to revert it?
+7. Use just one more commit for the remaining files. Check the `git status` 
+8. Use `git log` to visualize what happened
+9. Checkout your second commit, check what happened to the files now
+10. Checkout your master branch, check what happened to the files
 
 ##### Undoing things
-1. Undo a non-staged change
-2. Undo a staged change
-3. Undo a commited change
-4. Reset your master branch to an older commit
+1. Undo a non-staged change in one of the files
+2. Undo a staged change in one of the files
+3. Undo a commited change in one of the files
+4. Reset your master branch to an older commit (your changes will be lost, add a new fake commit if you don't want to lose it!)
 
 ##### Create a branch to split your development
-1. Create a branch called `my-branch` and add a commit to it.
-2. Checkout your `master` and create another branch. Add two commits to it.
-3. Checkout your master again and merge both branches into it.
+1. Create a branch called `new-data` and add a commit to it with a new file called `data2.csv`.
+2. Checkout your `master` and check the files that you see. 
+3. Create another branch from `master` and check the files that you see. Add two commits to it in any files.
+3. Checkout your master again and checking the files at each step, merge both branches into it.
 4. Visualize with `git log --graph --oneline --decorate --all` what happened.
 
 ##### Collaborate using git
-1. Create a repository in GitHub, clone it and commit a file into it.
-
-##### Ignore files that don't need versioning
-1. Create a .gitignore file and test it with a file
+1. Create a repository in GitHub, clone it and commit a file into it
+2. Push your changes to GitHub in order to ensure the changes are stored in your `remote`
+3. Use GitHub UI in your browser to modify the file and commit it.
+4. Pull all the changes that happened remotely to your local git repository.
 
 ##### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository)
 * [Choose a license](https://choosealicense.com/)
+1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
 
 ### Homework
 * Don't forget to fill up the Weekly Journal! 
 
 ##### Basic
-1. Make sure you have your `bash installed`, and then choose a text editor you like to use at home! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo and Vim but feel free to explore!
-2. Install `python`, recommended steps here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier.
-3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/) lesson send me what this command does: 
-   `$ wc -l * | head -n 3 | sort -n`
-
+1. Make sure you have your a `shell` (like `bash`) installed, and then choose a text editor you like to use at home! Any text editor should do. A few recommendations are: Visual Studio Code, Atom, Komodo! If you want to practice your Shell skills, you can stick to `vim` or `nano`, but beware the learning curve!
+2. Install `python`, recommended steps can be found here: [Python Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/). For Windows, I’d strongly recommend Option 3 (via Installing it through [Anaconda](https://www.anaconda.com/distribution/)) as it will make future steps much easier due to Windows lack of support for the Shell.
+3. Complete the [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/)
+4. Send me what these command do: 
+   `wc -l * | head -n 3 | sort -n`
+5. Send me what does this script do:
+   `
+   #!/bin/bash
+   for dir in 0 1 2 S
+   do
+     mkdir $dir-files
+     touch $dir-files/$dir
+   done
+   `
+   
 ##### Advanced
-1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/). We will plan to spend up to 1 hour in class next week going over `git`, depending on how successful the class is at the following reach challenge.
+1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/)
   
 ##### Reach
 1. Be a `git` master! That is, do the following *from scratch*:
@@ -145,14 +161,14 @@ How do you currently collaborate in your work? What's the versioning system used
   * push your changes to Github
   * send me the url for your Github repository
 
-### Optional homework
-* What commands we learned are useful for data exploration and why?
+### Optional homework(do not submit)
+* What shell commands we learned are useful for data exploration and why?
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
 ### Recommended References
 * [Git Documentation](https://git-scm.com/doc)
 * [Most popular Open Source licenses](https://opensource.org/licenses)
-* [InteractiveMan ](https://explainshell.com/)
+* [Interactive Manual](https://explainshell.com/)
 * [Scheduling Scripts in Linux](https://en.wikipedia.org/wiki/Cron)
 
 ### Advanced exercises material
