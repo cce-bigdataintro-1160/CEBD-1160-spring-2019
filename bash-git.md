@@ -169,16 +169,16 @@ How do you currently collaborate in your work? What's the versioning system used
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
 ### Recommended References
-* [Bash Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
-* [Interactive Manual](https://explainshell.com/)
+* [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
+* [Shell Interactive Manual](https://explainshell.com/)
 
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-* [Most popular Open Source licenses](https://opensource.org/licenses)
+* [Git Most popular Open Source licenses](https://opensource.org/licenses)
 * [Git UI Tools](https://git-scm.com/downloads/guis/)
 * [Git Documentation](https://git-scm.com/doc)
 
 * [Scheduling Scripts in Linux](https://en.wikipedia.org/wiki/Cron)
-* [Crontab Guru](https://crontab.guru/)
+* [Scheduling Crontab Guru](https://crontab.guru/)
 
 ### Advanced exercises material
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
