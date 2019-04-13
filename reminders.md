@@ -1,6 +1,7 @@
-1. Name presentation
-2. Homework and Project: References
-3. Computers in Lab
-4. Lab availability for students
-5. Application and real use cases
-6. Feedback on feedback
+1. Reminder on Grading
+1. Homework and Project: References
+2. Computers in Lab
+3. Lab availability for students
+4. Application and real use cases
+5. Correction of homework
+6. PySpark, Hadoop, etc
