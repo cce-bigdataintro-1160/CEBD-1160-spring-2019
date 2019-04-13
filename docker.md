@@ -100,7 +100,7 @@ The `README.md` should contain instructions for A) building, B) showing us that 
 ##### Reach
 1. Extend the script you have created for your own dataset to compute the a) mean and b) standard deviation of each feature in your dataset. 
 
-### Optional homework
+### Optional homework(no need to submit)
 * Advanced python stuff
 
 ### Recommended Readings
