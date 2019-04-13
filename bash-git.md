@@ -38,7 +38,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 
 1. Create a directory called `learning-shell` in your home directory.
 2. Download the file `random-datasets` from Slack. Copy it from your `~/Downloads` directory into your `learning-shell` directory and unzip it using `unzip random-datasets.zip`. Do not use the UI for these steps!
-3. The files are highly unorganized! Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending`. Second, move all the remaining files that have a `.json` extension into `country-data`. Third, move the `Iris.csv` file into `iris-species`.
+3. The files are highly unorganized! Lets organize this by first moving all files that start with `total-public-construction-spending` into the directory `total-public-construction-spending-data`. Second, move all the remaining files that have a `.json` extension into `country-data`. Third, move the `Iris.csv` file into `iris-species`.
 4. This looks much better, but now rename the file `master.csv` to `suicides_dataset.csv`
 5. Delete the duplicated `iris-species copy` directory.
 6. Create three new directories: `csv`, `json` and `mixed`
