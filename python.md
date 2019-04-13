@@ -83,7 +83,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ##### Reach
 1. From your list of python values completed in 1, create a new list for each of the columns in the dataset (i.e. if there are 10 columns/features, extract each feature into its own list, and print them)
 
-### Optional homework
+### Optional homework(no need to submit)
 * What commands we learned are useful for data exploration and why?
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
