@@ -43,4 +43,5 @@
 ### Recommended Readings
 * [Big Data in Wikipedia](https://en.wikipedia.org/wiki/Big_data)
 * [Asking the right questions](https://towardsdatascience.com/how-to-ask-the-right-questions-as-a-data-scientist-913621907411)
+* [Enhancing the right questions](https://towardsdatascience.com/how-to-ask-questions-data-science-can-solve-e073d6a06236)
 * [Difference between regression and classification problems](https://www.datascience.com/blog/regression-and-classification-machine-learning-algorithms)
