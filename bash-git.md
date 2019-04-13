@@ -69,7 +69,7 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 ##### Create scripts to automate basic processes
 
 1. Write a script that suggests the data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the `read` command to read the user input!
-2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, wow can we automate it's daily execution at 8:00AM? 
+2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, how can we automate it's daily execution at 8:00AM? 
 
 ##### Finding files and contents in files
 
@@ -127,6 +127,7 @@ How do you currently collaborate in your work? What's the versioning system used
 ##### Understand what licensing is
 * [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository)
 * [Choose a license](https://choosealicense.com/)
+
 1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
 
 ### Homework
