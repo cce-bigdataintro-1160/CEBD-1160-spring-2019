@@ -10,7 +10,7 @@
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
-### Intro to Shell
+### The Shell
 * [The shell](./shell.png)
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
@@ -163,7 +163,7 @@ How do you currently collaborate in your work? What's the versioning system used
   * push your changes to Github
   * send me the url for your Github repository
 
-### Optional homework(do not submit)
+### Optional homework(no need to submit)
 * What shell commands we learned are useful for data exploration and why?
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
