@@ -82,10 +82,10 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 ### Optional homework(no need to submit)
 
 ### Recommended Readings
-* [Getting Started with Docker](https://docs.docker.com/get-started/)
-* [Docker Hub](https://hub.docker.com)
-* [Official docker samples](https://docs.docker.com/samples/)
-* [Official Images Dockerfiles](https://github.com/docker-library/)
-* [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+* [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
+* [Docker Hub](https://hub.docker.com): Docker Hub with tons of images available
+* [Official docker samples](https://docs.docker.com/samples/): Some Dockerfile samples
+* [Official Images Dockerfiles](https://github.com/docker-library/): Images for the Official Docker Images
+* [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/): What is Kubernetes, a high level architecture tool for container orchestration
 
 ### Advanced exercises material

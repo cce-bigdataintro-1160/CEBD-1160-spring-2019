@@ -7,21 +7,21 @@
 * Homework
 
 ### A brief introduction to Linux
-* [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
-* [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+* [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
+* [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions
 
 ### The Shell
-* [The shell](./basi-git/shell.png)
-* [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+* [The shell](./basi-git/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
+* [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
 ##### Goals
 Establish the foundation for our data analysis by understanding how the Linux shell works:
-* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/)
-* [The man command - manual](http://www.linfo.org/man.html)
-* [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/)
+* [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all shell commands
+* [The man command - manual](http://www.linfo.org/man.html): The utility to read the manual for any shell command
+* [Software Carpentry Unix](https://swcarpentry.github.io/shell-novice/): A Software Carpentry lesson for Shell
 
 ##### Be able to Navigate through the file system:
-* [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+* [Filesystem Hierarchy Standard - Linux Standard Directories](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard): The basic file system organization in Linux
 
 1. Find out what's your username. Find your home folder and list its contents.
 2. Navigate to `/` and list the contents of this directory. Why is this a special directory?
@@ -80,10 +80,9 @@ Establish the foundation for our data analysis by understanding how the Linux sh
 5. Print all the `grep` commands you did today.
 
 ### Intro to Git
-* [About Git](https://git-scm.com/about/)
-* [Official Pro Git Book](https://git-scm.com/book/en/v2)
-* [Git Reference](https://git-scm.com/docs)
-* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday)
+* [About Git](https://git-scm.com/about/): Information on why to use git
+* [Git Reference](https://git-scm.com/docs): A reference to all git commands
+* [Basic "Git Everyday" Walkthrough](https://git-scm.com/docs/giteveryday): A reference to basic git commands used on everyday coding
 
 ##### Goals
 Learn the basics of a versioning control system to enable work organization and collaboration
@@ -125,8 +124,8 @@ How do you currently collaborate in your work? What's the versioning system used
 5. Add your class notes to this notebook, commit and push it again.
 
 ##### Understand what licensing is
-* [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository)
-* [Choose a license](https://choosealicense.com/)
+* [Licensing a Repository](https://help.github.com/en/articles/licensing-a-repository): A GitHub guide on how to license a repository
+* [Choose a license](https://choosealicense.com/): A GitHub Page to help you decide which is the right license for your project
 
 1. Create a LICENSE file in your previously created repository. Add the MIT license in it, commit and push.
 
@@ -169,18 +168,15 @@ How do you currently collaborate in your work? What's the versioning system used
 * Do a quick research explaining what are the main pros and cons of the Python language.
 
 ### Recommended References
-* [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
-* [Shell Interactive Manual](https://explainshell.com/)
+* [Shell Cheat Sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf): All shell commands in a single cheatsheet
+* [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands
 
-* [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
-* [Git Most popular Open Source licenses](https://opensource.org/licenses)
-* [Git UI Tools](https://git-scm.com/downloads/guis/)
-* [Git Documentation](https://git-scm.com/doc)
-
-* [Scheduling Scripts in Linux](https://en.wikipedia.org/wiki/Cron)
-* [Scheduling Crontab Guru](https://crontab.guru/)
+* [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) All git commands in a single cheatsheet
+* [Git UI Tools](https://git-scm.com/downloads/guis/): A list of UI tools for git
+* [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
 
 ### Advanced exercises material
-* Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
-* Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
-* Extension to use the shell like a boss: [Oh My Zsh](https://ohmyz.sh/)
+* [cmdchallenge](https://cmdchallenge.com/): Can you complete these challenges from 
+* [Git Branching](https://learngitbranching.js.org/): Learn what git does visually with 
+* [Oh My Zsh](https://ohmyz.sh/): Extension to use the shell like a boss
+* [Official Pro Git Book](https://git-scm.com/book/en/v2): The Official Pro Git Book

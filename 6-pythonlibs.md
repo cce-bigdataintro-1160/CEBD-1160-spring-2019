@@ -31,3 +31,4 @@ Two journals should be submitted, one per week.
 
 ### Advanced exercises material
 
+class 6 and 7 should be kaggle without the ML part
