@@ -11,7 +11,7 @@
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 ### The Shell
-* [The shell](./shell.png)
+* [The shell](./basi-git/shell.png)
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 ##### Goals
