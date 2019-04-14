@@ -22,11 +22,6 @@ Homework to be submitted by sending Greg a Github repo URL, with a `README.md` c
 
 Two journals should be submitted, one per week.
 
-### Homework
-* Don't forget to fill up the Weekly Journal! 
-
-* Project
-
 ### Optional homework(no need to submit)
 
 ### Recommended Readings

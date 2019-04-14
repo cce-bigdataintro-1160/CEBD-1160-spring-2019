@@ -140,14 +140,14 @@ How do you currently collaborate in your work? What's the versioning system used
 4. Send me what these command do: 
    `wc -l * | head -n 3 | sort -n`
 5. Send me what does this script do:
-   `
+   ```
    #!/bin/bash
    for dir in 0 1 2 S
    do
      mkdir $dir-files
      touch $dir-files/$dir
    done
-   `
+   ```
    
 ##### Advanced
 1. Complete Software Carpentry Git lesson as best as you can: [Git Novice](http://swcarpentry.github.io/git-novice/)
@@ -184,4 +184,3 @@ How do you currently collaborate in your work? What's the versioning system used
 * Can you complete these challenges from [cmdchallenge](https://cmdchallenge.com/)
 * Learn what git does visually with [Git Branching](https://learngitbranching.js.org/)
 * Extension to use the shell like a boss: [Oh My Zsh](https://ohmyz.sh/)
-
