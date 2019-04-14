@@ -67,7 +67,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 3. Build this image and run it, binding the external file using the `-v` flag. Pass the location of the file to the script as an argument. Make sure the file gets printed.
 4. Make sure to cleanup by stopping and removing all containers.
 
-##### Conclusions
+##### Final notes on Docker
 * [Official Images Dockerfiles](https://github.com/docker-library/)
   * nginx
   * openjdk
@@ -83,7 +83,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 * Don't forget to fill up the Weekly Journal! 
 
 ##### Basic
-1. Create a new repository called `class4-homework`, and in it, put the following:
+1. Create a new repository called `docker-homework`, and in it, put the following:
   - LICENSE
   - README.md
   - Dockerfile
@@ -101,7 +101,7 @@ The `README.md` should contain instructions for A) building, B) showing us that 
 1. Extend the script you have created for your own dataset to compute the a) mean and b) standard deviation of each feature in your dataset. 
 
 ### Optional homework(no need to submit)
-* Advanced python stuff
+
 
 ### Recommended Readings
 * [Getting Started with Docker](https://docs.docker.com/get-started/)
@@ -111,4 +111,4 @@ The `README.md` should contain instructions for A) building, B) showing us that 
 * [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 ### Advanced exercises material
-* playing with docker
+

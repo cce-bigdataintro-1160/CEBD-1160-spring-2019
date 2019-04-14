@@ -72,7 +72,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 * Don't forget to fill up the Weekly Journal! 
 
 ##### Basic
-1. Complete the "homework" section of the "our_csv_parser.py" file in this repository, and upload it to your own Github repo (use either the Boston data or another from the ski-kit learn toy datasets): https://github.com/cce-bigdataintro-1160/class3-hwk
+1. Complete the "homework" section of the "our_csv_parser.py" file in this repository, and upload it to your own Github repo (use either the Boston data or another from the ski-kit learn toy datasets): https://github.com/cce-bigdataintro-1160/class3-hwk??? reponame?
 *important* point for the Python homework: do not import any libraries for this. There are many that can help, but the point of doing it the hard way first is to gain experience, understanding, and appreciation of what they do :)
 2. Learn the Difference between Docker (https://docker.com) and Singularity (https://www.sylabs.io/docs/), and write 3-4 sentences of your own words when you’d use one or the other, and upload this to the same Github repo  as part 1.
 3. Install Docker community edition on your personal computers
