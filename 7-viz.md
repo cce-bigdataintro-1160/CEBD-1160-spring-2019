@@ -1,4 +1,3 @@
-
 # Python Libraries & Numerical Analysis
 
 ### Agenda
