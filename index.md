@@ -14,16 +14,16 @@
 * Class on June 15 will run from 9:00 to 11:00
 
 ## Course Outline
-1. [Intro 2 Programming & Big Data](./intro.md)
-2. [Intro 2 Linux & Version Control](./bash-git.md)
-4. [Python Data Structures and Conditionals](./python.md)
-3. [Intro 2 Containerization & Shipping Software](./docker.md)
-5. [Python Loops and Functions](./python-flow.md)
-6. [Python Libraries & Numerical Analysis](./python-libs.md)
-7. [Python Data Visualization](./python-visualisation.md)
-8. [Python Machine Learning](./python-ml.md)
-9. [Overview of Big Data frameworks](./other-tech.md)
-10. [Projects & Applications of Data Science](./project.md)
+1. [Intro 2 Programming & Big Data](./1-intro.md)
+2. [Intro 2 Linux & Version Control](./2-bash-git.md)
+3. [Python Data Structures and Conditionals](./3-python.md)
+4. [Intro 2 Containerization & Shipping Software](./4-docker.md)
+5. [Python Loops and Functions](./5-python-adv.md)
+6. [Python Libraries & Numerical Analysis](./6-python-libs.md)
+7. [Python Data Visualization](./7-python-visualisation.md)
+8. [Python Machine Learning](./8-python-ml.md)
+9. [Overview of Big Data frameworks](./9-other-tech.md)
+10. [Projects & Applications of Data Science](./10-project.md)
 
 ## Evaluation
 * Project (40%)
