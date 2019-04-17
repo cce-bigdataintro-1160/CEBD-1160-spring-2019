@@ -8,6 +8,9 @@
 
 ### Intro to Python
 
+##### Goals
+Get acquainted with the Python language, that we'll use for data exploration and manipulation.
+
 ##### The Python Shell
 1. Check what's the type of the following values in the python shell:
    * `1`
@@ -38,9 +41,9 @@
    ['abc','cde','efg','1','2','3']
    ```
 4. Add, commit and push this script to the `class3-notebook` repository in GitHub!
- 
-##### Goals
-Get acquainted with the Python language, that we'll use for data exploration and manipulation.
+
+### Additional Exercises Material
+* [Extra exercises](./3-python-exercises.md): Additional exercises to practice each Python topic
 
 ### Optional homework(no need to submit, preparation for next class)
 * Read the `Part 1: Orientation` and `Part 2: Containers` from [Docker Getting Started](https://docs.docker.com/get-started/)
@@ -51,7 +54,7 @@ Get acquainted with the Python language, that we'll use for data exploration and
 * [Official Python3 Documentation](https://docs.python.org/3/): Python3 documentation page
 * [Python3 Reference](https://docs.python.org/3/library/index.html):  Python3 reference pages containing all base types
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
-* [Python Coding Style Guidelines](Python Coding Style (https://www.python.org/dev/peps/pep-0008/)): Coding style guidelines for Python if you want to make your code look good
+* [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
 
 ### Advanced exercises material
-* [Extra exercises](./python-bank.md): Additional exercises to practice each Python topic
+
