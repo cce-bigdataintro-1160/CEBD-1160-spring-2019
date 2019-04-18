@@ -42,9 +42,7 @@
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 ##### Error
-1. Write a script that can convert a string into an int and print its value and type on the console. If the value can't be converted print: `bad string {} couldn't be cast to int`
-2. ???
+1. Write a script that can convert a string into an int and print its value and type on the console. If the value can't be converted print: `bad string {} couldn't be cast to int`, correctly formatting the message.
 
 ##### Files
 1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person. Output the prefixed text and output the final count for each.
-2. Open and print the [boston.housing](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data). Can you print it value by value?
