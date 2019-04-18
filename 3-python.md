@@ -10,8 +10,8 @@
 
 ##### Goals
 Get acquainted with the Python language, that we'll use for data exploration and manipulation.
-[Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation
-[Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
+* [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation
+* [Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
 
 ##### The Python Shell
 1. Check what's the type of the following values in the python shell:
@@ -27,7 +27,9 @@ Get acquainted with the Python language, that we'll use for data exploration and
 
 ##### Writing a Python script
 1. Write a script called `testing_scripts.py` with the following content:
+
 ```
+
 #!/usr/bin/env python3
 
 mynumber=1
@@ -39,7 +41,9 @@ mylist=[1,2,3,4,5]
 #Complete this script by 
 #- printing each one of the variables above
 #- printing the type of each of the variables above
+
 ```
+
 Run it using `python3 testing_scripts.py`
 2. Write another script called `hello_script.py`. It should take one number as input. If the number is equal to 42 print `Right answer to life the universe and everything`. If the number is not 42 print `wrong answer`. If the input is not a number print `Sorry, invalid input, expecting number`.
 3. Add, commit and push these two scripts to the `class3-notebook` repository in GitHub!
