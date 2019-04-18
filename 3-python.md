@@ -26,10 +26,9 @@ Get acquainted with the Python language, that we'll use for data exploration and
 5. Can you replace `big data` with `BIG DATA` in the list `['a',2,['b',4,5,'big data']]`
 
 ##### Writing a Python script
-1. Write a script called `testing_scripts.py` with the following content:
+1. Write a script called `testing_scripts.py` with the following content below, run it using `python3 testing_scripts.py`:
 
 ```
-
 #!/usr/bin/env python3
 
 mynumber=1
@@ -41,10 +40,8 @@ mylist=[1,2,3,4,5]
 #Complete this script by 
 #- printing each one of the variables above
 #- printing the type of each of the variables above
-
 ```
 
-Run it using `python3 testing_scripts.py`
 2. Write another script called `hello_script.py`. It should take one number as input. If the number is equal to 42 print `Right answer to life the universe and everything`. If the number is not 42 print `wrong answer`. If the input is not a number print `Sorry, invalid input, expecting number`.
 3. Add, commit and push these two scripts to the `class3-notebook` repository in GitHub!
 
@@ -75,6 +72,3 @@ Run it using `python3 testing_scripts.py`
 * [Python3 Reference](https://docs.python.org/3/library/index.html):  Python3 reference pages containing all base types
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
-
-### Advanced exercises material
-
