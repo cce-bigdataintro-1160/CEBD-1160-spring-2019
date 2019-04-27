@@ -2,8 +2,8 @@
 * Don't forget to fill up the Weekly Journal! 
 
 ##### Basic
-1. Complete the `homework` section of the `my_csv_reader.py` file in this link(https://github.com/cce-bigdataintro-1160/class3-hwk), and push it to your own `class3-homework` Github repo (use any dataset from the projects, might need to adjust the script)
-*important* : do not import any libraries for this. There are many that can help, but the point of doing it the hard way first is to gain experience, understanding, and appreciation of what they do :)
+1. Complete the homework section of the my_csv_reader.py file in this link (you can copy the contents from here to start, or use the code you already developed in the class https://github.com/cce-bigdataintro-1160/class3-hwk).
+Push your final code to your own class3-homework Github repo (use any dataset from the toys datasets, you'll need to adjust the script accordingly) important : do not import any libraries for this. There are many that can help, but the point of doing it the hard way first is to gain experience, understanding, and appreciation of what they do :)
 2. Describe what is a Docker Container (https://www.docker.com/resources/what-container), and write 3-4 sentences of your own words when you’d use one, and push this to the `class3-homework` repository in the `docker.txt` or `README.md` file.
 3. Install Docker CE (Community Edition) on your personal computers:
 Ubuntu: https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/ 
