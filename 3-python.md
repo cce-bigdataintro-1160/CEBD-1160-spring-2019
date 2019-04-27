@@ -14,10 +14,10 @@ Get acquainted with the Python language, that we'll use for data exploration and
 * Write scripts with input arguments, loops and flow control
 * Provide file inputs to your scripts for data exploration
 
+* [Python Features](./python-files/infochart1.png)
+* [Python Usage](./python-files/infochart2.jpg)
 * [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules )
 * [Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
-* [Python Features](./python-files/infochart1.png)
-* [Python Usage](./python-files/infochart2.png)
 
 ##### The Python Shell
 1. Check what's the type of the following values in the python shell:
