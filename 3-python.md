@@ -8,7 +8,7 @@
 ### Intro to Python
 
 ##### Goals
-Get acquainted with the Python language, that we'll use for data exploration and manipulation. The end of this class you will be able to:
+Get acquainted with the Python language, that we'll use for data exploration and manipulation. By the end of this class you will be able to:
 * Understand python types and basic paradigm
 * Use the python shell to write simple expressions and small processes
 * Write scripts with input arguments, loops and flow control
@@ -77,7 +77,7 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 ### Optional homework(no need to submit, preparation for next class)
 * Read the `Part 1: Orientation` and `Part 2: Containers` from [Docker Getting Started](https://docs.docker.com/get-started/)
 * Research what is a Python external `library` and what can you do with it.
-* Research what are the `numpy` and `pandas` python libraries and what they're used for.
+* Research what are the `numpy` and `argparse` python libraries and what are they used for.
 
 ### Recommended Readings
 * [Official Python3 Documentation](https://docs.python.org/3/): Python3 documentation page
