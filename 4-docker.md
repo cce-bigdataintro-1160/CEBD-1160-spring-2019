@@ -81,7 +81,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
   - That don't require native libs compatibility
   - To testing apps in different environments at a low cost (OS, DBs, Hadoop, etc)
   - To facilitate CI/CD: automated testing suites, packaging, building and deployment to final environments
-* You can find references for many Dockerfiles in the Official Images Docker Library, for example: https://github.com/docker-library/python
+* You can find references for many Dockerfiles in the Official Images Docker Library, for example: [Python Docker Image](https://github.com/docker-library/python)
 
 ### Additional Exercises Material
 * [Extra exercises](./4-docker-exercises.md): Additional exercises to practice each Docker topic
