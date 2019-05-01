@@ -55,7 +55,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 1. List all the images you have downloaded to your local machine.
 2. List all the containers you have running or stopped on your local machine.
 3. Open your browser and type localhost:80 in the url
-4. Run the following two images at the same time using the same terminal:
+4. Run the following image using the terminal:
 * nginx (map the port 80:80 from the container)
 5. Test the fact your webservers is up by checking the same url again. You should get a different page now.
 6. List all the images you have downloaded to your local machine. Are there new images here?
@@ -91,6 +91,7 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 * Research what are the `pandas` and `matplotlib` python libraries and what they're used for
 
 ### Recommended Readings
+* [Docker Cheatsheet](https://github.com/wsargent/docker-cheat-sheet): All docker commands and cookbook recipes in a single place!
 * [Official docker samples](https://docs.docker.com/samples/): Some Dockerfile samples
 * [Official Images Dockerfiles](https://github.com/docker-library/): Images for the Official Docker Images
 * [PySpark Jupyter image tutorial](https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494): how to run a PySpark Jupyter image in less than 3 minutes
