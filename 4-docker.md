@@ -63,10 +63,11 @@ Understand the benefits of conteinerizing processes and how to apply it using Do
 8. Cleanup your images to avoid consuming too much space now.
 
 ##### Creating your own Images and modifying existing Images
-* In order to create our own images we have to add a new file to our project: the `Dockerfile`
+* [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
+* In order to create our own images we have to add a new file to our project: the `Dockerfile`. 
 
 1. Write a small python script that only prints `I'm a short lived python script running within a docker container!!!`. Save it as `short-lived.py`
-2. Create a new Dockerfile based on the ubuntu linux docker image. This image should always launch your `short-lived.sh` script when started.
+2. Create a new `Dockerfile` based on the ubuntu linux docker image. This image should always launch your `short-lived.py` script when started. You will need to make sure you install python3 in this image and also to copy your script to the containers.
 3. Build this image and run it to test it.
 4. Repeat the same steps, but now use a long running process. You can use a `while(True)` loop in  your python script in order to achieve this.
 5. Make sure to cleanup by stopping and removing all containers.
