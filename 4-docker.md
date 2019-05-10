@@ -1,4 +1,3 @@
-
 # Intro 2 Containerization & Shipping Software
 
 ### Agenda

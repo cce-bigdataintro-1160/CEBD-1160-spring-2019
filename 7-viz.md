@@ -6,7 +6,8 @@
 * Homework
 
 ### Learning Conteinerization with Docker
-
+https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
+https://matplotlib.org/_images/anatomy.png
 ##### Goals
 Get to know a few Python Advanced language constructs that can make your code cleaner and better.
 
