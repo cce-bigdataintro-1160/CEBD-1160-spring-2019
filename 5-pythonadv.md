@@ -21,46 +21,22 @@ Understand some extra concepts of the Python language and start to manipulate da
 * Use the Matplotlib library to generate simple plots from Datasets
 * After learning all of those utilities, we'll put this in practice by continuing the creation of our final project using the chosen dataset
 
-##### What is pseudocode
-* [Pseudocode in Wikipedia](https://en.wikipedia.org/wiki/Pseudocode): Article describing Pseudocode and what's it used for
-* it's nothing more than expressing your objectives in a speech-like language before you start coding, avoiding complex details that would otherwise clutter your line of thought
-* helps to focus on initial objectives when you lose track due to technical dificulties
-* can be written in a way that it resembles the programming language, to facilitate implementation
-* can be perfected to find problems that would be otherwise difficult to see
-
-1. Write pseudocode for a program that reads the titanic file and saves two other files one for the male passengers and another for the female passengers
-
-##### Creating your own functions
-* [Function Definition](https://docs.python.org/3/tutorial/controlflow.html#defining-functions): Overview of how to define a function
-* A function is a block of reusable code that can be written once and executed later (or never)
-* The advantage of using functions is that you can write it once but call it multiple times, saving time and code
-* Functions can receive values (aka parameters) and can return a result to the function `caller`
-* We already know a few `built-in functions` like `len`, `help`, `open` and `enumerate`, they come from the [python standard library](https://docs.python.org/3/library/index.html)
-
-1. Create a new script called `functions.py`.
-2. Create a function called `file_summary` that receives a file path as a parameter (of type string) and returns the following string: `The file <filename> has <n> lines`
-3. Create a function called `print_disclaimer` that receives the paths of multiple files and prints: `This program will print the summary for the following files: <filenames>`
-4. Conclude your script by calling both functions for: titanic `train.csv`, titanic `test.csv` and `insurance.csv` 
-
 ##### Importing and Using Libraries
 * [Importing Libraries](https://docs.python.org/3/tutorial/modules.html#importing-from-a-package): How to import python existing libraries
 * Libraries are packages of classes and functions with existing code
 * In order to import packages in Python they either have to be part of the standard library or be installed manually using pip or the os package manager
 * After the installation using libraries is as simples as using import statements like `import sys` or `import numpy as np`
-* Some other libs that can contain useful functions are `time`, `random`, `os` and etc you can check the available methods in each lib by using the function `dir`
-* Code for the libraries is also available through your IDE or through open repositories like GitHub
+* you can check the available methods in each lib by using the function `dir` or using your IDE (PyCharm) help
 
 1. Write a python script that makes tests one functionality of each of the following imported libs: `argparse`, `sys`
 2. Write a python script that makes tests one functionality of each of the following imported libs: `time`, `random`, `os`
 
 ##### Numerical Analysis with Numpy Arrays
-[numpy Docs](https://www.numpy.org/devdocs/): numpy Documentation
-[numpy Quick Start](https://www.numpy.org/devdocs/user/quickstart.html): A few quick recipes to use Numpy
+* [numpy Docs](https://www.numpy.org/devdocs/): numpy Documentation
+* [numpy Quick Start](https://www.numpy.org/devdocs/user/quickstart.html): A few quick recipes to use Numpy
 * Numpy is a Linear Algebra Library for Python, and it's very fast because of it's native bindings
 * The most important concept in Numpy are Array and Matrix and they'll initially look a lot like lists
 * Many Data Science libs like pandas, sklearn and matplotlib rely on Numpy as base, and consequently take Numpy Arrays as inputs and outputs to it's methods
-* We're going to learn the most important things we can do with Numpy arrays: how to create, slice, filter, reshape and aggregate Numpy vectors
-* Numpy is also capable of loading files and parsing csvs
 
 1. Create your first array with the elements `[1,22.4,5,35,4,6.7,3,8,40]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and  `dtype`.
 2. Create your first matrix with the elements `[['a', 'b'],['c', 'd'],[3, 3]]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and `dtype`
@@ -77,8 +53,8 @@ Understand some extra concepts of the Python language and start to manipulate da
 * the sum, average, max and min values for each feature(column)
 
 ##### DataFrames with Pandas
-[Pandas Docs](http://pandas.pydata.org/pandas-docs/stable/): main pandas documentation page
-[pandas Quick Start](http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html): A few quick recipes to using DataFrames
+* [Pandas Docs](http://pandas.pydata.org/pandas-docs/stable/): main pandas documentation page
+* [pandas Quick Start](http://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html): A few quick recipes to using DataFrames
 * Library meant to help with data analysis using two new data structures: Series and DataFrames
 * At first it will resemble a lot like numpy Arrays, but the big difference is that we can assign labels to our n dimensional, making it possible to create DataFrames, a table structure that can be used very similarly to Excel or SQL tables
 * Has many productivity functions to facilitate data visualization, manipulation and cleaning
@@ -98,9 +74,9 @@ Understand some extra concepts of the Python language and start to manipulate da
 
 
 ##### Plotting Charts with MatPlotLib
-[matplotLib Docs](https://matplotlib.org/contents.html): Matplotlib Documentation
-[matplotLib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
-[matplotLib Tutorials](https://matplotlib.org/tutorials/index.html): matplotlib Tutorials for Beginners, Itermediate and Advanced users.
+* [matplotLib Docs](https://matplotlib.org/contents.html): Matplotlib Documentation
+* [matplotLib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
+* [matplotLib Tutorials](https://matplotlib.org/tutorials/index.html): matplotlib Tutorials for Beginners, Itermediate and Advanced users.
 
 * one of the main libraries for scientifical data exploration, allows for quick prototyping and has all basic functionalities
 * was built with the MATLAB interface as a reference
@@ -129,7 +105,7 @@ Understand some extra concepts of the Python language and start to manipulate da
 * Research the library `plotly`, another plotting library widely used for data analysis
 
 ### Recommended Readings
-[Loading csv files in pandas](https://towardsdatascience.com/pandas-dataframe-playing-with-csv-files-944225d19ff): Tutorial explaining how to load CSV files in pandas DataFrames
-[Loading excel files in pandas](https://datatofish.com/read_excel/): Tutorial explaining how to load excel files in pandas DataFrames
-[Loading sql tables in pandas](https://stackoverflow.com/questions/10065051/python-pandas-and-databases-like-mysql): page explaining how to load sql tables in pandas DataFrames
-[Loading html tables in pandas](https://beenje.github.io/blog/posts/parsing-html-tables-in-python-with-pandas/): page explaining how to load html tables in pandas DataFrames
+* [Loading csv files in pandas](https://towardsdatascience.com/pandas-dataframe-playing-with-csv-files-944225d19ff): Tutorial explaining how to load CSV files in pandas DataFrames
+* [Loading excel files in pandas](https://datatofish.com/read_excel/): Tutorial explaining how to load excel files in pandas DataFrames
+* [Loading sql tables in pandas](https://stackoverflow.com/questions/10065051/python-pandas-and-databases-like-mysql): page explaining how to load sql tables in pandas DataFrames
+* [Loading html tables in pandas](https://beenje.github.io/blog/posts/parsing-html-tables-in-python-with-pandas/): page explaining how to load html tables in pandas DataFrames
