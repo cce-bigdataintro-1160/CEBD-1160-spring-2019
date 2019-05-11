@@ -19,14 +19,14 @@ Understand some extra concepts of the Python language and start to manipulate da
 * Use the Numpy library to manipulate n-dimensional arrays
 * Use the Pandas library to organize data in DataFrames and extract insights from it
 * Use the Matplotlib library to generate simple plots from Datasets
-* After leaning all of those utilities, we'll put this in practice by starting the creation of our final project using the chosen dataset
+* After learning all of those utilities, we'll put this in practice by continuing the creation of our final project using the chosen dataset
 
 ##### What is pseudocode
 * [Pseudocode in Wikipedia](https://en.wikipedia.org/wiki/Pseudocode): Article describing Pseudocode and what's it used for
-* it's nothing more than expressing your objectives in a speech-like language before you start coding, omiting complex details that would otherwise clutter your line of thought
+* it's nothing more than expressing your objectives in a speech-like language before you start coding, avoiding complex details that would otherwise clutter your line of thought
 * helps to focus on initial objectives when you lose track due to technical dificulties
 * can be written in a way that it resembles the programming language, to facilitate implementation
-* helps us identify simple challenges that can be hard to foresee
+* can be perfected to find problems that would be otherwise difficult to see
 
 1. Write pseudocode for a program that reads the titanic file and saves two other files one for the male passengers and another for the female passengers
 
@@ -37,17 +37,10 @@ Understand some extra concepts of the Python language and start to manipulate da
 * Functions can receive values (aka parameters) and can return a result to the function `caller`
 * We already know a few `built-in functions` like `len`, `help`, `open` and `enumerate`, they come from the [python standard library](https://docs.python.org/3/library/index.html)
 
-1. We'll be using the titanic `train.csv` file for this exercise, and we'll categorize the gender of the passengers as `0` for male and `1` for female
-2. In order to do that create a function called `categorize_gender` that receives a list of strings as a parameter and returns `0` if the passenger is man or `1` if is a woman
-```
-def categorize_gender(row):
-   ???
-   return row + [0 or 1]
-```
-
-3. Iterate over each row of the file applying your function
-4. Add the result of your function call to each row of the dataset, producing a new list
-5. Print your new list with an extra field
+1. Create a new script called `functions.py`.
+2. Create a function called `file_summary` that receives a file path as a parameter (of type string) and returns the following string: `The file <filename> has <n> lines`
+3. Create a function called `print_disclaimer` that receives the paths of multiple files and prints: `This program will print the summary for the following files: <filenames>`
+4. Conclude your script by calling both functions for: titanic `train.csv`, titanic `test.csv` and `insurance.csv` 
 
 ##### Importing and Using Libraries
 * [Importing Libraries](https://docs.python.org/3/tutorial/modules.html#importing-from-a-package): How to import python existing libraries
@@ -69,23 +62,19 @@ def categorize_gender(row):
 * We're going to learn the most important things we can do with Numpy arrays: how to create, slice, filter, reshape and aggregate Numpy vectors
 * Numpy is also capable of loading files and parsing csvs
 
-1. Create your first array with the elements `[1,22.4,5,35,4,6.7,3,8,40]`. Experiment what the following functions do: `ndim`, `shape`, `size`, `dtype`, `itemsize` and `data`.
-2. Create your first matrix with the elements `[[1, 1],[2, 2],[3, 3]]`. Experiment what the following functions do: `ndim`, `shape`, `size`, `dtype`, `itemsize` and `data`.
-3. Create numpy 1 dimension array using each of the functions `arange`, `zeros`, `ones`, `eye`, `linspace` and `rand`
-4. Create numpy 2 dimensions matrix using each of the functions `arange`, `zeros`, `ones`, `eye` and `rand`
+1. Create your first array with the elements `[1,22.4,5,35,4,6.7,3,8,40]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and  `dtype`.
+2. Create your first matrix with the elements `[['a', 'b'],['c', 'd'],[3, 3]]` and print it. Experiment what the following functions do: `ndim`, `shape`, `size` and `dtype`
+3. Create numpy 1 dimension array using each of the functions `arange`, `linspace` and `rand`
+4. Create numpy 2 dimensions matrix using each of the functions `zeros`, `ones`, `eye` and `rand`
 5. Create an array containing 20 times the value `7`. Reshape it to a 4 x 5 Matrix
-6. Create a matrix of 6 x 6 containing random values between 0 and 0.999... print:
+6. Create a matrix of 6 x 6 containing random values between 0 and 1, then print:
 * only the first element on it
 * only the first 2 rows for it
 * only the last 2 rows for it
 * only the mid 2 rows for it
 * only the last column for it
 * only the two mid columns and 2 mid rows for it
-* only the lines containing XXX > 0.5
-7. load the data from `insurance.csv` using numpy, then print: 
 * the sum, average, max and min values for each feature(column)
-* the sum, average, max and min values for each sample(row)
-
 
 ##### DataFrames with Pandas
 [Pandas Docs](http://pandas.pydata.org/pandas-docs/stable/): main pandas documentation page
@@ -95,30 +84,17 @@ def categorize_gender(row):
 * Has many productivity functions to facilitate data visualization, manipulation and cleaning
 * Has many data loaders making it capable of integrating with many sources like csvs, xlsx, sql and html pages
 
-1. Create a pandas Series using the list [1,2,3] and index ['a','b','c']. Explore the dataset using functions like `to_string()`, `index`, `dtypes`, `shape` and `describe()`
-2. Create a pandas DataFrame to resemble this structure:
-```
-    Age   Name   Gender 
-1    18   John   Male
-2    17   Sandra Female
-3    20   Mike   Male
-```
-
-Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`
-3. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
-Print only the column `age`
-Print only the columns `age`,`children` and `charges`
-Print only the first 5 lines and only the columns `age`,`children` and `charges`
-4. What is the average, minimum and maximum `charges` ?
-5. What is the average, minimum and maximum `age` ?
-6. What is the `age` and `sex` of the person that paid `10797.3362`. Was he a smooker?
-7. What is the `age` of the person who paid the maximum charge?
-8. How many insured people do we have for each `region`?
-9. What is the average `bmi` in the `southwest` and `southeast` regions?
+1. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
+2. Print only the column `age`
+3. Print only the columns `age`,`children` and `charges`
+4. Print only the first 5 lines and only the columns `age`,`children` and `charges`
+5. What is the average, minimum and maximum `charges` ?
+7. What is the `age` and `sex` of the person that paid `10797.3362`. Was he/she a smoker?
+8. What is the `age` of the person who paid the maximum charge?
+9. How many insured people do we have for each `region`?
 10. How many insured people are children?
-11. Can you identify if there are any smokers among the children's dataset?
-12. What do you expect to be the correlation between `charges` and the other fields? 
-13. Using the method `corr()`, check if your assumptions were correct.
+11. What do you expect to be the correlation between `charges` and `age`, `bmi` and `children`? 
+12. Using the method `corr()`, check if your assumptions were correct.
 
 
 ##### Plotting Charts with MatPlotLib
@@ -136,14 +112,16 @@ Print only the first 5 lines and only the columns `age`,`children` and `charges`
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
 3. plot the scatterplot for `age` vs `charge` and save it as `age_charge_scatter.png`
 4. Re-do the previous items, adding the title, x label and y label for each item.
+5. Plot other data facts that might interest you. Can you explain why the correlation didn't show the same results as the charts show? How could we fix this?
 
 ##### Final Notes on Python Libraries
 * These utilities are widely used in the industry and represent some of the most essential building blocks for data analysis
 * Many worksplaces have unexplored datasets that can produce interesting insights, looks around for excel, csv, databases or html you can play with
 * There are many other more specialized libraries and tools like: pyspark, tensorflow, plotly, but all of them require the basic understanding and assimilation of the concepts we learned
+* In conjunction with the right tools we have to always be curious and try to figure new insights we can extract out of the data. These tools are meant to leverage expertise and not to replace it
 
 ### Additional Exercises Material
-* [Extra exercises](./4-docker-exercises.md): Additional exercises to practice each Docker topic
+* [Extra exercises](./5-pythonadv-exercises.md): Additional exercises to practice
 
 ### Optional homework(no need to submit)
 * Reserch the following matplotlib types of plots: `bar` and `pie`
