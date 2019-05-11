@@ -2,8 +2,6 @@
 
 ### Agenda
 * Homework Check
-* What is pseudocode
-* Creating your own functions
 * Importing and Using Libraries
 * Numerical Analysis with Numpy Arrays
 * DataFrames with Pandas
@@ -14,8 +12,6 @@
 
 ##### Goals
 Understand some extra concepts of the Python language and start to manipulate datasets using libraries. By the end of this class you'll be able to:
-* Plan ahead on before creating your scripts with the use of pseudocode
-* Create your own functions to apply repeatable code across your scripts
 * Use the Numpy library to manipulate n-dimensional arrays
 * Use the Pandas library to organize data in DataFrames and extract insights from it
 * Use the Matplotlib library to generate simple plots from Datasets

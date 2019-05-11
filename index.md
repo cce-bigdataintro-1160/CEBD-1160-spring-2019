@@ -19,7 +19,6 @@
 3. [Python Data Structures and Conditionals](./3-python.md)
 4. [Intro 2 Containerization & Shipping Software](./4-docker.md)
 5. [Python Loops and Functions](./5-pythonadv.md)
-6. [Python Libraries & Numerical Analysis](./6-pythonlibs.md)
 7. [Python Data Visualization](./7-viz.md)
 8. [Python Machine Learning](./8-ml.md)
 9. [Overview of Big Data frameworks](./9-other-techs.md)
