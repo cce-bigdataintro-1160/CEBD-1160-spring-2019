@@ -21,11 +21,11 @@ Understand some extra concepts of the Python language and start to manipulate da
 * [Importing Libraries](https://docs.python.org/3/tutorial/modules.html#importing-from-a-package): How to import python existing libraries
 * Libraries are packages of classes and functions with existing code
 * In order to import packages in Python they either have to be part of the standard library or be installed manually using pip or the os package manager
-* After the installation using libraries is as simples as using import statements like `import sys` or `import numpy as np`
+* After the installation using libraries is as simple as using import statements like `import sys` or `import numpy as np`
 * you can check the available methods in each lib by using the function `dir` or using your IDE (PyCharm) help
 
-1. Write a python script that makes tests one functionality of each of the following imported libs: `argparse`, `sys`
-2. Write a python script that makes tests one functionality of each of the following imported libs: `time`, `random`, `os`
+1. Write a python script that tests one functionality of each of the following imported libs: `time`, `random`, `os`
+2. Write a python script that tests one functionality of each of the following imported libs: `argparse`, `sys`
 
 ##### Numerical Analysis with Numpy Arrays
 * [numpy Docs](https://www.numpy.org/devdocs/): numpy Documentation
