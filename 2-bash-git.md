@@ -11,7 +11,7 @@
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions
 
 ### The Shell
-* [The shell](./basi-git/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
+* [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
 * [Bash, the Unix Shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)): A wikipedia page on the most popular Linux shell
 
 ##### Goals
