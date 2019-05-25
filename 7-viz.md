@@ -23,12 +23,9 @@ By the end of this class you'll be able to:
 
 ##### Visualizing data with Matplotlib
 * [matplotlib](https://matplotlib.org/index.html): Matplotlib official page
-* [matplotlib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
 * [Anatomy of a Figure](https://matplotlib.org/_images/anatomy.png): the anatomy of a matplotlib plot
-* [matplotlib markers](https://matplotlib.org/api/markers_api.html): List of all markers available in matplotlib
-* [matplotlib linestyles](https://matplotlib.org/gallery/lines_bars_and_markers/line_styles_reference.html): List of linestyles available in matplotlib
 
-* It's possible to create plots in matplotlib using a few different syntaxes
+* Besides what we learned in last class, it's possible to create plots in matplotlib using a few different syntaxes
 * We can generate grids with multiple plots and arrange the layout in different ways
 * Matplotlib supports displaying images with the `show()` command, saving them to files with `savefig()` or displaying them automatically on Jupyter notebooks
 * The words columns, features and dimensions will be used interchangeably and mean the same thing!!!
@@ -56,6 +53,8 @@ By the end of this class you'll be able to:
 * [seaborn](https://seaborn.pydata.org/): Seaborn official page
 * [seaborn Examples Gallery](https://seaborn.pydata.org/examples/index.html): gallery with examples for reference
 * [matplotlib cmaps](https://matplotlib.org/tutorials/colors/colormaps.html): matplotlib color maps to customize the seaborn plots color scheme
+
+* Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 * For all exercises below look at the references in the seaborn [class6-notebook](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class6-notebook) in order to learn how to:
   * create the same plots we learned on matplotlib using seaborn
   * create categorical plots
@@ -81,9 +80,9 @@ By the end of this class you'll be able to:
 1. What the best way to display:
   * [Diabetes] Best way to understand how BMI affects/is affected by the Progression of Diabetes?
   * [Iris] To understand which has a larger variation between the Iris sepal length and Iris petal length? 
-  * [Boston] To have a quick a understanding on what's the average, minimum and maximum prices of houses
+  * [Boston] To have a quick a understanding on what's the average, minimum and maximum prices of houses?
   * [Wine] To display what's the share of each class of Wine?
-  * [Cancer] To display the relationship between 3+ features at the same time
+  * [Cancer] To display the relationship between 3+ features at the same time?
 
 ##### Final Notes on Python Data Visualization
 * One important aspect is realize the power of mastering the programatic generation of plots. One can write a generic plotter that can receive many different types of datasets and produce those many plots automatically.
@@ -95,9 +94,15 @@ By the end of this class you'll be able to:
 * Read the machine learning introduction in: [this link](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings), in particular, sections `3.6.1` to `3.6.5`. Don’t worry if this is a bit complex right now - it’ll really vary based on your math background.
 
 ### Recommended Readings
-* [Visualization of Multi Dimensional data](https://towardsdatascience.com/the-art-of-effective-visualization-of-multi-dimensional-data-6c7202990c57): Excellent article about the challenges and solutions to visualize multi dimensional data
+* [matplotlib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
+* [matplotlib stylesheets](https://matplotlib.org/gallery/style_sheets/style_sheets_reference.html): List of all stylesheets available in matplotlib
+* [matplotlib markers](https://matplotlib.org/api/markers_api.html): List of all markers available in matplotlib
+* [matplotlib linestyles](https://matplotlib.org/gallery/lines_bars_and_markers/line_styles_reference.html): List of linestyles available in matplotlib
 * [matplotlib Tutorials](https://matplotlib.org/tutorials/index.html): matplotlib Tutorials for Beginners, Itermediate and Advanced users
 * [matplotlib Sample Plots](https://matplotlib.org/tutorials/introductory/sample_plots.html#sphx-glr-tutorials-introductory-sample-plots-py): Here you'll find a host of example plots with the code that generated them.
+
+* [Visualization of Multi Dimensional data](https://towardsdatascience.com/the-art-of-effective-visualization-of-multi-dimensional-data-6c7202990c57): Excellent article about the challenges and solutions to visualize multi dimensional data
+
 * [Plotly](https://plot.ly/python/): Plotly's Python graphing library makes interactive, publication-quality graphs online. 
 * [Plotly Express](https://www.plotly.express/): A gallery displaying the simplified version of the plotly python library, meant to accelerate the usage of the library. 
 * [ggplot](http://ggplot.yhathq.com/): ggplot is a plotting system for Python based on R's ggplot2

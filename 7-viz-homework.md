@@ -3,13 +3,14 @@
 * As always, please include instructions for how to run your code in your readme.
 
 # Basic
-1. Basic: regenerate a ton of figures (> 50) showing data in *2D or 3D* with at least *3+* features at a time, leveraging things like:
+1. Basic: regenerate a ton of figures (> 50) showing data with at least *3+* features at a time, leveraging things like:
 * multiple plots on the same figure
 * multiple plots on the same axes
 * colours, markers, sizes, shapes, hue, etc...
+* 3D visualizations
 * use any library you want!
 
- You can determine how you choose these columns based on conceptual understanding of your dataset, or generating all possible combinations! Push your script and figures to Github, and please make sure the figures have titles, axis labels, and legends if applicable
+ You can determine how you choose these columns based on conceptual understanding of your dataset, or generating all possible combinations! Push your script and make sure the figures have titles, axis labels, and legends if applicable. (Pushing the images is optional, I recommend pushing the most interesting ones at least)
 
 # Advanced
 1. from all your figures, tell me the *greatest* one for interpreting your data, and justify why by explicitly comparing it to some other figures! Write which figure, why and your comparison on your README.MD file.
