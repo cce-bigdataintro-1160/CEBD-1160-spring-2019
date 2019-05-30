@@ -1,158 +1,156 @@
-# Python Data Visualization
-
+# Machine Learning in Big Data
 ### Agenda
 * Homework Check
-* What is Machine Learning
+* Machine Learning Concepts
+* scikit-learn
+* Acquiring and loading data
+* Preparing the data
+* Linear Regression
+* Logistic Regression
+* K Nearest Neighbors
+* About choosing the best algorithm
+* Final Notes on Machine Learning
 * Homework
 
-### Python Data Visualization
-
 ##### Goals
-Learn what is Machine Learning, and the different types of algorithms we can use to solve ML problems. By the end of this class you'll be able to:
+Learn what is Machine Learning by understanding its concepts, recognizing the different types of ML problems and the different types of algorithms we can use to solve them. By the end of this class you'll be able to:
+
 * Explain what is Machine Learning
 * Understand ML main concepts and glossary
 * Identify different types of ML problems
 * Understand which algorithms can be applied to each kind of ML problems
 * Apply the algorithms and data preparation techniques to obtain a ML model
-* Measure and compare the quality of extracted ML models
+* Predict variables using the generated ML model
+* Measure and compare the quality of ML models
 * Apply these techniques to your final project in order to find the best way to answer your originally formulated question
 
 ##### Machine Learning Concepts
-* [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): Machine learning: the problem setting¶
-* In groups of three, take ten minutes to research what is Machine Learning and the difference between Supervised and Unsupervised ML methods. Provide one sample of each.
-* Supervised learning: regression (Show housing problem, with 1, 2 and 3 features, add chart and polynomials). Regression because wants to regress or minimize distance to the linear regression, giving wights to important vars
-start with 2 dots, increase to hundreds(1 to many vars) (sums distance of all dots until reaches the optimum low for each feature)
-* Supervised learning: classification (Show wine problem, with 1, 2 and 3 features, add chart and polynomials) give wights to important vars and reduces unimportant ones, targetting
-* Add draw diagram on board <mix the diagrams you got over there in browser>
-* We'll learn how to do these steps using scikit-learn
+* [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): Machine learning: High level explanation of what's machine learning
+* Machine Learning is about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
+
+1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems:
+  - Supervised
+  - Unsupervised
+  - Regression
+  - Classification
+
+2. Can you convert a regression problem into a classification problem? When would that be interesting?
+
+* We'll be focusing on Supervised Learning, in particular regression and classification problems
+
+* Some important glossary:
+  * X is a matrix each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
+  * y: is a vector containing our variable to be predicted, also called target, label or dependent variable
+  * model: is the predictor function created from applying ML mathematical algorithms
+  * Accuracy: percentage of correct predictions the generated model can make
+  * Error: the sum of the errors made for each example in training or validation sets. Unlike accuracy, loss is not a percentage.
+  
+* A general Machine Learning Process Lifecycle
+![](ml-files/Slide1.jpeg?raw=true)
 
 #####scikit-learn
 * [sklearn tutorial](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings): tutorial showing how to use python and sklearn to solve ML problems
-The scikit-learn project started as scikits.learn, a Google Summer of Code project, now under active community development
-* Pandas and sklearn
-target, iris.target_names, data)
-datashape target shape
 
+* The scikit-learn project started as scikits.learn, a Google Summer of Code project, now under active community development. It's widely used as one of the simplest and most effective tools to practice Machine Learning
+* It's based on numpy and pandas, making it easy to use and compatible with matplotlib and seaborn. Between it's advantages it's based on fairly high level concepts with an easy to use interface
+* sklearn has [estimators](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) that expose a standardized interface for each ML algorithm
+* Handles most modern ML algorithms, except Deep Learning, where Tensor Flow, Keras and PyTorch take place
 
 ##### Acquiring and loading data
 * [Loading External Datasets](https://scikit-learn.org/stable/datasets/index.html#external-datasets): sklearn recommended ways to load datasets
+
 * Generally, scikit-learn works on any numeric data stored as numpy arrays or scipy sparse matrices. Other types that are convertible to numeric arrays such as pandas DataFrame are also acceptable
-* Using one of the many pandas read methods can be a great start: 'read_clipboard', 'read_csv', 'read_excel', 'read_feather', 'read_fwf', 'read_gbq', 'read_hdf', 'read_html', 'read_json', 'read_msgpack', 'read_parquet', 'read_pickle', 'read_sas', 'read_sql', 'read_sql_query', 'read_sql_table', 'read_stata', 'read_table'
-* There are many libraries meant to load other types of data not covered here!
-* For the class and project we'll now load our data straight from sklearn datasets that will provide it as a numpy matrix
+* Using one of the many pandas read methods is a great start: 'read_csv', 'read_excel', 'read_html', 'read_json', 'read_parquet', 'read_sql', 'read_sql_query', 'read_sql_table' and 'read_table'. Besides these there are other libs capable of loading virtually any type of data!
+* Important aspect: size and bias of data
+* For the class and project we'll now [load our data straight from sklearn sample datasets](http://scipy-lectures.org/packages/scikit-learn/index.html#loading-the-iris-data-with-scikit-learn), as that data has been already prepared for running ml algorithms 
+
+1. Load your chosen dataset using the the sklearn dataset load methods. Now print the loaded dataset `keys()`, `data.shape`, `target.shape` and `feature_names`
+2. Assign the `data` to a variable named X representing our samples
+3. Assign the `target` to a variable named y representing our targets
 
 ##### Preparing the data
-* All agorithms require a training dataset to create the ML model
-* All agorithms require a validation dataset to validate the create ML model
-* Supervised algorithms require both a X matrix (features) and a y array (labels)
+* Data preparation and cleaning can be one of the most time consuming part of a ML process
+* The first step is to visualize and make sure that you have a conceptual understanding of what each column represents towards your final objective. All tools we learned in the last classes are essential in this step: 
+  * pandas DataFrames summaries and statistics 
+  * plotting datasets techniques
 
-* We'll use sklearn `train_test_split` method to separe the dataset for us, saving a set for a validation later. we'll use a validation dataset size between 30%-40% (common range for smaller sets)
-* Initial cleaning of data should also be performed carefully not to strip the data of potentially valuable information. (Examples of cleaning data)
-* Training: 60% Cross validation: 20% Testing: 20%
+* The next steps involves data manipulation operations to minimize noise and prepare the dataset for sklearn, that uses only numerical features: 
+  * dealing with missing data: dropping or filling values
+  * transforming/encoding textual data with numerical values
+  * encoding categorical features with dummy variables
+  * feature selection/drop features: removing features manually or with an algorithm
 
-##### Training the model
-* sklearn has a special type of processors called [estimators](https://scikit-learn.org/stable/tutorial/statistical_inference/settings.html), that are capable of creating ML models from data
-* We'll be focusing on supervised methods that have the following interface:
-`??? = model.fit(X,y)`
-`??? = model.predict(X_to_predict)`
-`??? = model.predict_proba(X_to_predict)` # classification only 0-1 how good
-`??? = model.score` # classification only , score for each class first is predict
-from sklearn.linear_model import LinearRegression or KNN
-* Estimated Data
+* Machine Leaning algorithms will require a `training dataset` to create the model and a `test dataset` to validate the resulting model. 
+  * Supervised algorithms require that each dataset is divided in to an X matrix(features) and a y array (labels)
+  * Unsupervised algorithms only require the X matrix(features)
 
-* regression and classification add some algorithms
+* We'll use sklearn `model_selection.train_test_split` method to split the datasets. We'll use a validation dataset size between 30%-40% (common range for smaller sets)
 
-lets look at the data new description, etc
-sklearn Estimators (every alrogithm is an estimator): LinearRegression, 
-Scikit-learn strives to have a uniform interface across all methods, and we’ll see examples of these below. Given a scikit-learn estimator object named model, the following methods are available:
-http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface
-maybe run the code of a sample of each + chart (link to my exercise that we'll revisit later)
-* The housing price example( get from andrew ng) - landsize, rooms vs price (embed above)
-* Samples, features, target and label
-* Dataset split: Train and Test
-* Training/Fitting a model
-* Checking model quality: error
-* Using the model to predict new samples!
+1. For your chosen dataset, create the train and test splits. Print the shape of the full initial dataset and then the shape of each of the 4 split datasets `X_train, X_test, y_train, y_test`
 
-thinking on the plots from class 8, can we think of some specific variable sthat would make it easy to classify or regress my target variable? which ones were just noise?
+##### Supervised Learning: Linear Regression - for Regression problems
+* [Linear regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
 
-* Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class6-notebook) in order to learn how to:
-  * Create plots
-  * Create figures and subplots (axes)
-  * Save figures to files
-  * Decorate and customize plots
-  * Explore datasets through plots
-  * Add multiple plots to the same subplot(ax)
+* The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
+* Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
-validating results:
-http://scipy-lectures.org/packages/scikit-learn/index.html#gaussian-naive-bayes-classification
+1. Using either the boston or diabetes datasets train a Linear Regression Model
+2. Print the resulting coeficients of your model
+3. Plot a scatter plot comparing your test targets versus your predicted targets
+4. Print the resulting RMSE (Root Mean Square Error). In order to improve this model should we increase or decrease the RMSE?
 
-1. Using the dataset you chose for your project. Plot one chart of each type:
-  - line `plot` passing one column(feature)
-  - line `plot` passing two columns(features)
-  - `scatter` plot passing two columns(features)
-2. Make sure to add a `title`, `xlabel` and `ylabel` on each of the previous plots
-3. Put the the 3 plots above on the same figure and save it on a single file
-4. Play with the `color`, `linestyle`, `linewidth`, `marker`, `alpha` parameters of a `scatter` plot. You don't need to use multiple charts per figure anymore, just one is fine.
-5. Use one more feature(column) to play with the `size` parameter of a `scatter` plot
-6. Do a multifeature plot! Plot 3+ `scatter` plots on the same `ax` comparing one variable to other columns at the same time. Make sure to add a `legend` to make your multifeature chart easier to read. 
-7. Modify the previous chart to use the `size` and `color` parameters. Tip, the `size` can be based on one of the features!
-8. Explore your dataset by plotting scatter plots comparing all columns 2 at a time. Tip, use nested for-loops for this!
+##### Logistic Regression - for Classification problems
+* [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
+* Adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a score from 0 to 1. We then set a threshold to define whether an item belongs to a class or not
+* On multiclass linear regression, the class with the highest probability "wins"
+* Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
-Using PCA to quickly have an overview on classification problems
-http://scipy-lectures.org/packages/scikit-learn/index.html#visualizing-the-data-on-its-principal-components
+1. Using either the iris, cancer or wine datasets train a Logistic Regression Model
+2. Print the resulting coeficients of your model
 
-* Optimizing our model
-* Cleaning is also one of the most important steps at this stage: (some methods from pandas and sklearn to help), but we'll start 
+* [Measuring classification results explained](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9): Reference explaining the difference between Accuracy, Precision, Recall and the F1Score on classification
+* [Measuring classification results with sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): how to analyse the metrics returned by the `metrics.classification_report`
 
-##### Machine Learning in Big Data
+1. Print your score, classification_report and confusion_matrix
+2. Print the resulting f1-score for your model In order to improve this model should we increase or decrease the f1-score?
 
-##### About choosing the best algorithm to solve
+##### About choosing the best algorithm
 * [Supervised Learning algorithms](https://scikit-learn.org/stable/supervised_learning.html): sklearn list of supervised learning algorithms
 * [scikit-learn algorithm cheatsheet](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html): excellent starting point for deciding which algorithm to use when training models
+* Scikit-learn strives to have a uniform [interface](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) making it exceptionally easy to try different algorithms
+* But selecting hyperparameters can be a way more challenging task as these can be specific for each algorithm, and due to the fact that more complexity leads to the overfitting and underfitting problem
 
 ##### Final Notes on Machine Learning
-Supervised
-Classification
-* Self Driving Cars: Camera seeing what car, truck or person (maybe show video of robot identifyin things)
-Regression
+* We've seen simple forms of ML algorithms, but they can be leveraged with hundreds, thousands or millions of features
 
+* Examples of Supervised Learning
+  * web search score
+  * credit/Morgage/Insurance risk
+  * pricing forecast
+  * advertisement targeting
+  * optical character / natural language recognition
+  * spam filtering
+  * document verification
+  * medical imagery
+  * fraud detection
+  
+* Examples of Unsupervised Learning
+  * cyber security and intrusion detection
+  * product recommendations and suggestions (Netflix, Spotify, etc)
+  * customer(or product) classification
+  * computer vision and robotics
 
-* Machine Learning in real life
-  * Web search
-  * Credit Scoring
-  * Pricing recommendations
-  * Cyber Security and intrusion detection
-  * Advertisement and product recommendation
-  * Suggestions, based on your watcher movies and ratings
-  * Customer classification
-  * Problems classification
-  * Text recognition
-  * Natural Language recognition
-  * Computer vision
-  * Finantial models
-  * Email Spam Filtering
-  * Evolution of call centers to ChatBots
-  * Stocks algorithms
-  * identify what's in a picture, a camera film, etc (a cat? a known criminal? a malign tumor?)  
-  * cluster similar songs into automatically generated playlists (spotify)
-  * show google api in action, maybe some other apis (aws for example)
-  Fraud data
-Unsupervised
+* Examples of more complex uses that mix multiple types of ML
+  * financial models
+  * robotics
+  * chatbots
+  * self driving cars
+  * sentiments analysis  
 
-cleaning up data
-feature selection
-pca for visualization and explanation
-what happens when you use your ttrain set for validation?
-
-cross validation http://scipy-lectures.org/packages/scikit-learn/index.html#cross-validation
-
-### Optional homework(no need to submit)
-* Read the machine learning introduction in: [this link](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings), in particular, sections `3.6.1` to `3.6.5`. Don’t worry if this is a bit complex right now - it’ll really vary based on your math background.
+* Another important aspect is the capability of models to be [persisted](https://scikit-learn.org/stable/modules/model_persistence.html) for later deployment/use
 
 ### Recommended Readings
-* [Visualization of Multi Dimensional data](https://towardsdatascience.com/the-art-of-effective-visualization-of-multi-dimensional-data-6c7202990c57): Excellent article about the challenges and solutions to visualize multi dimensional data
-
-
-https://scikit-learn.org/stable/tutorial/index.html
-https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+* [ML Glossary](https://developers.google.com/machine-learning/glossary/): A very extensive glossary for Machine Learning Concepts
+* [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
+* [Free Machine Learning Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): Extensive list of free ML books
+* [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
