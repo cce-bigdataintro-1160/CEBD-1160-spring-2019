@@ -1,4 +1,5 @@
 # Machine Learning in Big Data
+
 ### Agenda
 * Homework Check
 * Machine Learning Concepts
@@ -7,7 +8,6 @@
 * Preparing the data
 * Linear Regression
 * Logistic Regression
-* K Nearest Neighbors
 * About choosing the best algorithm
 * Final Notes on Machine Learning
 * Homework
@@ -25,30 +25,31 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * Apply these techniques to your final project in order to find the best way to answer your originally formulated question
 
 ##### Machine Learning Concepts
-* [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): Machine learning: High level explanation of what's machine learning
-* Machine Learning is about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
+* [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): High level overview from scikit-learn documentation
+* It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
 
 1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems:
   - Supervised
+    - Regression      
+    - Classification
   - Unsupervised
-  - Regression
-  - Classification
 
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
 
 * We'll be focusing on Supervised Learning, in particular regression and classification problems
 
 * Some important glossary:
-  * X is a matrix each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
+  * X is a matrix where each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
   * y: is a vector containing our variable to be predicted, also called target, label or dependent variable
-  * model: is the predictor function created from applying ML mathematical algorithms
+  * estimator: is an object that can train a ML model after a mathematica algorithm
+  * model: is the predictor function created by the estimator
   * Accuracy: percentage of correct predictions the generated model can make
   * Error: the sum of the errors made for each example in training or validation sets. Unlike accuracy, loss is not a percentage.
   
 * A general Machine Learning Process Lifecycle
 ![](ml-files/Slide1.jpeg?raw=true)
 
-#####scikit-learn
+##### scikit-learn
 * [sklearn tutorial](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings): tutorial showing how to use python and sklearn to solve ML problems
 
 * The scikit-learn project started as scikits.learn, a Google Summer of Code project, now under active community development. It's widely used as one of the simplest and most effective tools to practice Machine Learning
@@ -84,7 +85,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
   * Supervised algorithms require that each dataset is divided in to an X matrix(features) and a y array (labels)
   * Unsupervised algorithms only require the X matrix(features)
 
-* We'll use sklearn `model_selection.train_test_split` method to split the datasets. We'll use a validation dataset size between 30%-40% (common range for smaller sets)
+* We'll use sklearn `model_selection.train_test_split` method to split the datasets, with a test dataset size between 30%-40% (common range for smaller sets)
 
 1. For your chosen dataset, create the train and test splits. Print the shape of the full initial dataset and then the shape of each of the 4 split datasets `X_train, X_test, y_train, y_test`
 
@@ -96,8 +97,14 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 
 1. Using either the boston or diabetes datasets train a Linear Regression Model
 2. Print the resulting coeficients of your model
-3. Plot a scatter plot comparing your test targets versus your predicted targets
-4. Print the resulting RMSE (Root Mean Square Error). In order to improve this model should we increase or decrease the RMSE?
+
+* You can measure your model quality by using a few methods:
+  * Plotting the real vs predicted values
+  * Calculating and plotting the residuals (actual - predicted values)
+  * Calculating the error: MAE, MSE or RMSE
+
+1. Plot a scatter plot comparing your test targets versus your predicted targets
+2. Print the resulting RMSE (Root Mean Square Error). In order to improve this model should we increase or decrease the RMSE?
 
 ##### Logistic Regression - for Classification problems
 * [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
@@ -111,12 +118,12 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * [Measuring classification results explained](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9): Reference explaining the difference between Accuracy, Precision, Recall and the F1Score on classification
 * [Measuring classification results with sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): how to analyse the metrics returned by the `metrics.classification_report`
 
-1. Print your score, classification_report and confusion_matrix
+1. Print your model score, classification_report and confusion_matrix
 2. Print the resulting f1-score for your model In order to improve this model should we increase or decrease the f1-score?
 
 ##### About choosing the best algorithm
-* [Supervised Learning algorithms](https://scikit-learn.org/stable/supervised_learning.html): sklearn list of supervised learning algorithms
 * [scikit-learn algorithm cheatsheet](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html): excellent starting point for deciding which algorithm to use when training models
+* [Supervised Learning algorithms](https://scikit-learn.org/stable/supervised_learning.html): sklearn list of supervised learning algorithms
 * Scikit-learn strives to have a uniform [interface](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) making it exceptionally easy to try different algorithms
 * But selecting hyperparameters can be a way more challenging task as these can be specific for each algorithm, and due to the fact that more complexity leads to the overfitting and underfitting problem
 
@@ -125,10 +132,10 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 
 * Examples of Supervised Learning
   * web search score
-  * credit/Morgage/Insurance risk
+  * credit/mortgage/insurance risk
   * pricing forecast
   * advertisement targeting
-  * optical character / natural language recognition
+  * optical character recognition/natural language processing
   * spam filtering
   * document verification
   * medical imagery
@@ -136,9 +143,9 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
   
 * Examples of Unsupervised Learning
   * cyber security and intrusion detection
+  * factory anomaly detection
   * product recommendations and suggestions (Netflix, Spotify, etc)
   * customer(or product) classification
-  * computer vision and robotics
 
 * Examples of more complex uses that mix multiple types of ML
   * financial models
@@ -146,6 +153,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
   * chatbots
   * self driving cars
   * sentiments analysis  
+  * computer vision
 
 * Another important aspect is the capability of models to be [persisted](https://scikit-learn.org/stable/modules/model_persistence.html) for later deployment/use
 
