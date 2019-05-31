@@ -36,7 +36,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * Some important glossary:
   * X is a matrix where each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
   * y: is a vector containing our variable to be predicted, also called target, label or dependent variable
-  * estimator: is an object that can train a ML model after a mathematica algorithm
+  * estimator: is an object that can train a ML model after a mathematical algorithm
   * model: is the predictor function created by the estimator
   * Accuracy: percentage of correct predictions the generated model can make
   * Error: the sum of the errors made for each example in training or validation sets. Unlike accuracy, loss is not a percentage.
