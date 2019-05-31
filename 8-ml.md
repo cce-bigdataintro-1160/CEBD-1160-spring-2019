@@ -29,6 +29,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
 
 1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems:
+
   * Supervised
     * Regression      
     * Classification

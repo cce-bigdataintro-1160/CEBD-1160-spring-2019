@@ -10,5 +10,5 @@
 2. test the perfomance of your model using different values for the parameter `n_neighbors`
 
 ##### Reach
-1. use 1+ other types of classifier/regressors in scikit-learn for answering your question. (check the section `About choosing the best algorithms` https://cce-bigdataintro-1160.github.io/CEBD-1160/8-ml.html)
+1. use 1+ other types of classifier/regressors in scikit-learn for answering your question. (check the section `About choosing the best algorithms` https://cce-bigdataintro-1160.github.io/CEBD-1160/8-ml.html for ideas)
 2. using comments, write basic pseudocode of the classifiers/regressors you're using (that'd be to do a very short research on how the algorithms work)
