@@ -26,15 +26,9 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 
 ##### Machine Learning Concepts
 * [Machine Learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting): High level overview from scikit-learn documentation
-* It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
+* It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
 
-1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems:
-
-  * Supervised
-    * Regression      
-    * Classification
-  * Unsupervised
-
+1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
 
 * We'll be focusing on Supervised Learning, in particular regression and classification problems
