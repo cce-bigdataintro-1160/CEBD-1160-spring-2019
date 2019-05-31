@@ -8,7 +8,7 @@
 * Preparing the data
 * Linear Regression
 * Logistic Regression
-* About choosing the best algorithm
+* About choosing the best algorithms
 * Final Notes on Machine Learning
 * Homework
 
@@ -29,10 +29,10 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data. 
 
 1. In groups of three, take ten minutes to research 1 example of each of the following category of ML problems:
-  - Supervised
-    - Regression      
-    - Classification
-  - Unsupervised
+  * Supervised
+    * Regression      
+    * Classification
+  * Unsupervised
 
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
 
@@ -121,7 +121,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 1. Print your model score, classification_report and confusion_matrix
 2. Print the resulting f1-score for your model In order to improve this model should we increase or decrease the f1-score?
 
-##### About choosing the best algorithm
+##### About choosing the best algorithms
 * [scikit-learn algorithm cheatsheet](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html): excellent starting point for deciding which algorithm to use when training models
 * [Supervised Learning algorithms](https://scikit-learn.org/stable/supervised_learning.html): sklearn list of supervised learning algorithms
 * Scikit-learn strives to have a uniform [interface](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) making it exceptionally easy to try different algorithms
@@ -162,3 +162,4 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
 * [Free Machine Learning Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): Extensive list of free ML books
 * [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
+* [](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
