@@ -67,7 +67,7 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 ##### Preparing the data
 * Data preparation and cleaning can be one of the most time consuming part of a ML process
 * The first step is to visualize and make sure that you have a conceptual understanding of what each column represents towards your final objective. All tools we learned in the last classes are essential in this step: 
-  * pandas DataFrames summaries and statistics 
+  * pandas DataFrames summaries, statistics and correlation
   * plotting datasets techniques
 
 * The next steps involves data manipulation operations to minimize noise and prepare the dataset for sklearn, that uses only numerical features: 
@@ -86,7 +86,6 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 
 ##### Supervised Learning: Linear Regression - for Regression problems
 * [Linear regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
-
 * The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
 
@@ -110,8 +109,9 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 1. Using either the iris, cancer or wine datasets train a Logistic Regression Model
 2. Print the resulting coeficients of your model
 
-* [Measuring classification results explained](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9): Reference explaining the difference between Accuracy, Precision, Recall and the F1Score on classification
+
 * [Measuring classification results with sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): how to analyse the metrics returned by the `metrics.classification_report`
+* [Measuring classification results explained](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9): Reference explaining the difference between Accuracy, Precision, Recall and the F1Score on classification
 
 1. Print your model score, classification_report and confusion_matrix
 2. Print the resulting f1-score for your model In order to improve this model should we increase or decrease the f1-score?
@@ -157,4 +157,5 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
 * [Free Machine Learning Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): Extensive list of free ML books
 * [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
-* [](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
+* [Stanrdadization and scaling](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
+* [Scalers Comparison](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html): Comparison between multiple different scaling methods
