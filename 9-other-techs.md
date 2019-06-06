@@ -28,7 +28,12 @@ Oh, almost forgot! And kickoff the final project development!
 * This way we should have only numerical values for sklearn
 * Don't hesitate to consult the material from previous classes to do the exercise!
 
-1. Choose one of the datasets below
+* [Insurance Claim](https://www.kaggle.com/easonlai/sample-insurance-claim-prediction-dataset)
+* [Top spotify tracks of 2018](https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018)
+* [Heart Disease at UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
+* [Titanic Challenge](https://www.kaggle.com/c/titanic)
+
+1. Choose one of the datasets above
 2. Explore the dataset webpage, read the documentation and author's proposal
 3. Load the dataset using pandas
 4. Print the dataframe statistical summaries looking for:
@@ -44,31 +49,23 @@ Oh, almost forgot! And kickoff the final project development!
 9. Finally, choose a variable to be used as target and run your classification or regression.
 10. Check if your score is acceptable!
 
-[Insurance Claim](https://www.kaggle.com/easonlai/sample-insurance-claim-prediction-dataset)
-[Top spotify tracks of 2018](https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018)
-[Heart Disease at UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
-[Titanic Challenge](https://www.kaggle.com/c/titanic)
+
 
 ##### Where do I go from here?
 * Well, this will depend a lot on where do you want to go :)
-
 * A few more guided exercises to warmup: [Data Carpentry](https://datacarpentry.org/lessons/)
-
 * A good starting point to develop ML skills: [Kaggle Getting Started Competitions](https://www.kaggle.com/competitions?sortBy=grouped&group=general&page=1&pageSize=20&category=gettingStarted)
-
 * A more advanced challenge with unprocessed data [Montreal Open Data](http://donnees.ville.montreal.qc.ca/)
-
 * [Other Datasets](https://github.com/awesomedata/awesome-public-datasets)
-
 * Study other Computer Science topics like web development and microservices in order to deploy ML models
-
 * [CCE Big Data Diploma](https://www.concordia.ca/cce/programs/big-data.html)
 
 ![](https://media.giphy.com/media/1n4FT4KRQkDvK0IO4X/giphy.gif?raw=true)
 
 * [Reality will be more like](https://media.giphy.com/media/3o85xxSZvFZgD4wXde/giphy.gif) 
+* ...but persist!!!
 
-...but persist!!!
+
 
 ##### Final Project - to be presented on Saturday 15/06
 * [Final project instructions/template](https://github.com/cce-bigdataintro-1160/cebd1160_project_template)
