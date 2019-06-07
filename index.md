@@ -21,8 +21,8 @@
 5. [Python Loops and Functions](./5-pythonadv.md)
 7. [Python Data Visualization](./7-viz.md)
 8. [Python Machine Learning](./8-ml.md)
-9. [Overview of Big Data frameworks](./9-other-techs.md)
-10. [Projects & Applications of Data Science](./10-project.md)
+9. [Applications of Data Science](./9-other-techs.md)
+10. [Project](./10-project.md)
 
 ## Evaluation
 * Project (40%)

@@ -1,4 +1,4 @@
-# Projects & Applications of Data Science
+# Applications of Data Science
 
 ### Agenda
 * Homework Check
