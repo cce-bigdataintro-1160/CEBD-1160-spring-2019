@@ -63,6 +63,10 @@ Oh, almost forgot! And kickoff the final project development!
     
     Yes too!
 
+  * How should I present my final project?
+    
+    Sky is the limit! You can use the readme.md GitHub page, a power point presentation or whatever means you prefer (that you know is installed in class)
+
   * Can I change the csv dataset instead of the sklearn one?
     
     Yes, but take the risks into account, they haven't been 'prepared'!
@@ -77,7 +81,7 @@ Oh, almost forgot! And kickoff the final project development!
 
   * How long should my presentation be?
     
-    5-10 minutes should be fine!  
+    5-10 minutes!    
 
   * Is there a specific algorithm I should use?
     
