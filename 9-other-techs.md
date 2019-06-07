@@ -26,10 +26,10 @@ Oh, almost forgot! And kickoff the final project development!
   * Producing numerical data from textual data
   * Dropping columns with small impact or that add 'noise' (not really correlated)
 * This way we should have only numerical values for sklearn
-* Don't hesitate to consult the material from previous classes to do the exercise!
 
 ##### Additional Exercises Material
 * [Putting it all together...](./9-other-techs-exercises.md)
+* Don't hesitate to consult the material from previous classes to do the exercise!
 
 ##### Where do I go from here?
 * Well, this will depend a lot on where do you want to go :)
@@ -62,6 +62,9 @@ Oh, almost forgot! And kickoff the final project development!
   * Can I change my originally chosen question?
     
     Yes too!
+
+  * Is it mandatory to make a final project?
+    Yesss
 
   * How should I present my final project?
     
