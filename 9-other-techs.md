@@ -28,7 +28,7 @@ Oh, almost forgot! And kickoff the final project development!
 * This way we should have only numerical values for sklearn
 * Don't hesitate to consult the material from previous classes to do the exercise!
 
-### Additional Exercises Material
+##### Additional Exercises Material
 * [Putting it all together...](./9-other-techs-exercises.md)
 
 ##### Where do I go from here?
