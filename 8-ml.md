@@ -159,3 +159,4 @@ Learn what is Machine Learning by understanding its concepts, recognizing the di
 * [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
 * [Stanrdadization and scaling](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
 * [Scalers Comparison](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html): Comparison between multiple different scaling methods
+* [Exposing models on API](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa): A short tutorial showing how to present and re-use models using python's Flask framework
